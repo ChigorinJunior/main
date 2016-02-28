@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  26 FEB 2016 17:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  28 FEB 2016 15:09
 entering extended mode
 **./main.tex
 (main.tex
@@ -281,6 +281,93 @@ Package babel Info: Making " an active character on input line 111.
 LaTeX Warning: Label `d-3.2' multiply defined.
 
 
+LaTeX Warning: Label `sec2.1' multiply defined.
+
+
+LaTeX Warning: Label `1.1'' multiply defined.
+
+
+LaTeX Warning: Label `AS1' multiply defined.
+
+
+LaTeX Warning: Label `1.2'' multiply defined.
+
+
+LaTeX Warning: Label `1.3'' multiply defined.
+
+
+LaTeX Warning: Label `AS2' multiply defined.
+
+
+LaTeX Warning: Label `1.4'' multiply defined.
+
+
+LaTeX Warning: Label `l-1.3' multiply defined.
+
+
+LaTeX Warning: Label `d-1.1' multiply defined.
+
+
+LaTeX Warning: Label `1.5'' multiply defined.
+
+
+LaTeX Warning: Label `AS3' multiply defined.
+
+
+LaTeX Warning: Label `1.6' multiply defined.
+
+
+LaTeX Warning: Label `t-1.1' multiply defined.
+
+
+LaTeX Warning: Label `t-1.2' multiply defined.
+
+
+LaTeX Warning: Label `d-3.2' multiply defined.
+
+
+LaTeX Warning: Label `3.2'' multiply defined.
+
+
+LaTeX Warning: Label `d-3.3' multiply defined.
+
+
+LaTeX Warning: Label `f32?' multiply defined.
+
+
+LaTeX Warning: Label `3.3'' multiply defined.
+
+
+LaTeX Warning: Label `3.4'' multiply defined.
+
+
+LaTeX Warning: Label `d-3.1' multiply defined.
+
+
+LaTeX Warning: Label `d-3.2' multiply defined.
+
+
+LaTeX Warning: Label `d-3.4' multiply defined.
+
+
+LaTeX Warning: Label `d-4.1' multiply defined.
+
+
+LaTeX Warning: Label `t-4.1' multiply defined.
+
+
+LaTeX Warning: Label `d-4.2' multiply defined.
+
+
+LaTeX Warning: Label `c-4.1' multiply defined.
+
+
+LaTeX Warning: Label `t-4.3' multiply defined.
+
+
+LaTeX Warning: Label `t-4.5' multiply defined.
+
+
 LaTeX Warning: Label `and97' multiply defined.
 
 )
@@ -344,100 +431,91 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ] (chapter1.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } I.
 
-LaTeX Warning: Command \cyrv invalid in math mode on input line 14.
+LaTeX Warning: Command \cyrv invalid in math mode on input line 21.
 
 Missing character: There is no в in font cmr10!
 [4
 
 ]
-Underfull \hbox (badness 1231) in paragraph at lines 70--79
+Underfull \hbox (badness 1231) in paragraph at lines 76--84
 []\T2A/cmr/m/it/14.4 Для лю-бо-го $\OML/cmm/m/it/14.4 K \OMS/cmsy/m/n/14.4  \O
 ML/cmm/m/it/14.4 C[]$ \T2A/cmr/m/it/14.4 ($\OML/cmm/m/it/14.4 K$ \T2A/cmr/m/it/
 14.4 - ком-пакт)
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 70--79
-\T2A/cmr/m/it/14.4 функ-ция $\OML/cmm/m/it/14.4 f \OT1/cmr/m/n/14.4 = \OML/cmm/
-m/it/14.4 f\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; '\OT1/cmr/m/n/14.4 )$ \T2A/
-cmr/m/it/14.4 огра-ни-че-на и рав-но-мер-но непре-рыв-на по
+Underfull \hbox (badness 1009) in paragraph at lines 76--84
+\T2A/cmr/m/it/14.4 т.е. $\OMS/cmsy/m/n/14.4 8\OML/cmm/m/it/14.4 K \OMS/cmsy/m/n
+/14.4  \OML/cmm/m/it/14.4 C[]$ \T2A/cmr/m/it/14.4 и для про-из-воль-но-го ма-л
+о-го $\OML/cmm/m/it/14.4 " > \OT1/cmr/m/n/14.4 0$ \T2A/cmr/m/it/14.4 най-дет-
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 108--111
+Underfull \hbox (badness 10000) in paragraph at lines 113--116
 []\T2A/cmr/m/it/14.4 Для лю-бо-го ком-пакт-но-го мно-же-ства
  []
 
 
-LaTeX Warning: Reference `t1.2' on page 6 undefined on input line 129.
-
-
-Underfull \hbox (badness 2409) in paragraph at lines 147--156
+Underfull \hbox (badness 2409) in paragraph at lines 152--161
 []\T2A/cmr/m/it/14.4 Пусть ре-ше-ние (1.1[]) $\OML/cmm/m/it/14.4 x \OT1/cmr/m/n
 /14.4 = \OML/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; ; '\OT1/c
 mr/m/n/14.4 )$ \T2A/cmr/m/it/14.4 ог-ра-ни-че-но,
  []
 
 [6]
-Underfull \hbox (badness 1292) in paragraph at lines 172--179
-[]\T2A/cmr/m/it/14.4 Предельное урав-не-ние оп-ре-де-ля-ет-ся в под-об-ла-сти
+Underfull \hbox (badness 10000) in paragraph at lines 168--171
+[]\T2A/cmr/m/n/14.4 Верхней пра-во-сто-рон-ней про-из-вод-ной от $\OML/cmm/m/it
+/14.4 V$
  []
 
 
-Underfull \hbox (badness 4569) in paragraph at lines 181--184
-[]\T2A/cmr/m/n/14.4 Допустим, что пра-вая часть урав-не-ния (1.1[]) име-ет зна-
+Underfull \hbox (badness 10000) in paragraph at lines 168--171
+\T2A/cmr/m/n/14.4 вдоль ре-ше-ния $\OML/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4 (\OML/
+cmm/m/it/14.4 t; ; '\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/n/14.4 на-зы-ва-ет-ся зна-
 че-ние
  []
 
 
-LaTeX Warning: Reference `sec1.2' on page 7 undefined on input line 189.
-
-
-Underfull \hbox (badness 1033) in paragraph at lines 185--191
-\T2A/cmr/m/n/14.4 нов-ным ис-поль-зу-е-мым свой-ством при этом опре-де-ле-нии и
- усло-вии
+Underfull \hbox (badness 1158) in paragraph at lines 172--175
+\T2A/cmr/m/n/14.4 вии $[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; '\OT1/cmr/m/n
+/14.4 ) \U/msa/m/n/14.4 6 \OMS/cmsy/m/n/14.4  \OML/cmm/m/it/14.4 W\OT1/cmr/m/n/
+14.4 (\OML/cmm/m/it/14.4 t; '\OT1/cmr/m/n/14.4 ) \U/msa/m/n/14.4 6 \OT1/cmr/m/n
+/14.4 0$ \T2A/cmr/m/n/14.4 яв-ля-ет-ся невоз-рас-та-ние функ-ции
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--213
+Underfull \hbox (badness 10000) in paragraph at lines 188--197
 []\T2A/cmr/m/it/14.4 Будем го-во-рить, что отоб-ра-же-ние
  []
 
 
-Underfull \hbox (badness 3407) in paragraph at lines 204--213
+Underfull \hbox (badness 3407) in paragraph at lines 188--197
 \T2A/cmr/m/it/14.4 и по-сле-до-ва-тель-ность непре-рыв-ных отоб-ра-же-ний $\OML
 /cmm/m/it/14.4 u[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )\OM
 L/cmm/m/it/14.4 ;$ \T2A/cmr/m/it/14.4 та-кие,
  []
 
 [7]
-Underfull \hbox (badness 2213) in paragraph at lines 241--244
-[]\T2A/cmr/m/it/14.4 Функция $\OML/cmm/m/it/14.4 U \OMS/cmsy/m/n/14.4  \OML/cm
-m/m/it/14.4 F[]$ \T2A/cmr/m/it/14.4 есть пре-дель-ная к $\OML/cmm/m/it/14.4 W;$
-
- []
-
-
-Underfull \hbox (badness 2035) in paragraph at lines 241--244
+Underfull \hbox (badness 2035) in paragraph at lines 225--228
 \T2A/cmr/m/it/14.4 ес-ли су-ще-ству-ет $\OML/cmm/m/it/14.4 t[] \OMS/cmsy/m/n/14
 .4 ! \OT1/cmr/m/n/14.4 +\OMS/cmsy/m/n/14.4 1\OML/cmm/m/it/14.4 ;$ \T2A/cmr/m/it
 /14.4 та-кая, что по-сле-до-ва-тель-ность
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--253
+Underfull \hbox (badness 10000) in paragraph at lines 230--237
 []\T2A/cmr/m/it/14.4 Будем го-во-рить, что отоб-ра-же-ние
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 295--298
+Underfull \hbox (badness 10000) in paragraph at lines 274--277
 []\T2A/cmr/m/it/14.4 2) ре-ше-ние $\OML/cmm/m/it/14.4 x \OT1/cmr/m/n/14.4 = \OM
 L/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; ; '\OT1/cmr/m/n/14.4
  )$ \T2A/cmr/m/it/14.4 урав-не-ния (1.1[]) ог-ра-ни-че-но,
  []
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 299--306
+Underfull \hbox (badness 1721) in paragraph at lines 278--285
 \T2A/cmr/m/it/14.4 и со-от-вет-ству-ю-щее мно-жест-во $\OML/cmm/m/it/14.4 V[]\O
 T1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; c\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ;
 $ \T2A/cmr/m/it/14.4 ре-ше-ние $\OML/cmm/m/it/14.4 y \OT1/cmr/m/n/14.4 = \OML/c
@@ -446,48 +524,38 @@ m/m/it/14.4 ;$
  []
 
 
-LaTeX Warning: Reference `c-3.1' on page 9 undefined on input line 315.
+LaTeX Warning: Reference `3.10'' on page 9 undefined on input line 301.
 
 
-LaTeX Warning: Reference `3.10'' on page 9 undefined on input line 324.
-
-
-Underfull \hbox (badness 6592) in paragraph at lines 317--325
-[]\T2A/cmr/m/it/14.4 Если в усло-ви-ях тео-ре-мы I.2.1[] пред-по-ло-жить
+Underfull \hbox (badness 10000) in paragraph at lines 294--302
+[]\T2A/cmr/m/it/14.4 Если в усло-ви-ях тео-ре-мы II.2.1[] пред-по-ло-жить
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 317--325
+Underfull \hbox (badness 2213) in paragraph at lines 294--302
 \T2A/cmr/m/it/14.4 так-же, что су-ще-ству-ет по-сле-до-ва-тель-ность $\OML/cmm/
 m/it/14.4 t[] \OMS/cmsy/m/n/14.4 ! \OT1/cmr/m/n/14.4 +\OMS/cmsy/m/n/14.4 1\OML/
 cmm/m/it/14.4 ;$ \T2A/cmr/m/it/14.4 оп-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--325
+Underfull \hbox (badness 10000) in paragraph at lines 294--302
 \T2A/cmr/m/it/14.4 ре-де-ляе-мые ко-то-рой пре-дель-ная па-ра $\OT1/cmr/m/n/14.
 4 (\OML/cmm/m/it/14.4 g[]; U[]\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/it/14.4 и мно-жес
 т-во
  []
 
 
-LaTeX Warning: Reference `t-3.3' on page 9 undefined on input line 331.
+LaTeX Warning: Reference `t-3.3' on page 9 undefined on input line 308.
 
 
-LaTeX Warning: Reference `t-3.4' on page 9 undefined on input line 331.
+LaTeX Warning: Reference `t-3.4' on page 9 undefined on input line 308.
 
 
-LaTeX Warning: Reference `t-4.2' on page 9 undefined on input line 336.
+LaTeX Warning: Reference `t-4.2' on page 9 undefined on input line 313.
 
 [9]
-
-LaTeX Warning: Reference `r332' on page 10 undefined on input line 349.
-
-
-LaTeX Warning: Reference `t-4.4' on page 10 undefined on input line 351.
-
-
-Underfull \hbox (badness 2772) in paragraph at lines 363--367
+Underfull \hbox (badness 2772) in paragraph at lines 330--334
 \T2A/cmr/m/it/14.4 та-кой, что $\OML/cmm/m/it/14.4 V\OT1/cmr/m/n/14.4 (\OML/cmm
 /m/it/14.4 t; \OT1/cmr/m/n/14.4 0) = 0\OML/cmm/m/it/14.4 ;$ $a[]\OT1/cmr/m/n/14
 .4 (\OMS/cmsy/m/n/14.4 j\OML/cmm/m/it/14.4 '\OT1/cmr/m/n/14.4 (0)\OMS/cmsy/m/n/
@@ -500,100 +568,100 @@ n/14.4 k\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ;$
 ) [10] (chapter2.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } II.
 
-LaTeX Warning: Command \cyrv invalid in math mode on input line 14.
+LaTeX Warning: Command \cyrv invalid in math mode on input line 11.
 
 Missing character: There is no в in font cmr10!
 [11
 
 ]
-Underfull \hbox (badness 1231) in paragraph at lines 70--79
+Underfull \hbox (badness 1231) in paragraph at lines 67--76
 []\T2A/cmr/m/it/14.4 Для лю-бо-го $\OML/cmm/m/it/14.4 K \OMS/cmsy/m/n/14.4  \O
 ML/cmm/m/it/14.4 C[]$ \T2A/cmr/m/it/14.4 ($\OML/cmm/m/it/14.4 K$ \T2A/cmr/m/it/
 14.4 - ком-пакт)
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 70--79
+Underfull \hbox (badness 2213) in paragraph at lines 67--76
 \T2A/cmr/m/it/14.4 функ-ция $\OML/cmm/m/it/14.4 f \OT1/cmr/m/n/14.4 = \OML/cmm/
 m/it/14.4 f\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; '\OT1/cmr/m/n/14.4 )$ \T2A/
 cmr/m/it/14.4 огра-ни-че-на и рав-но-мер-но непре-рыв-на по
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 108--111
+Underfull \hbox (badness 10000) in paragraph at lines 105--108
 []\T2A/cmr/m/it/14.4 Для лю-бо-го ком-пакт-но-го мно-же-ства
  []
 
 
-LaTeX Warning: Reference `t1.2' on page 13 undefined on input line 129.
+LaTeX Warning: Reference `t1.2' on page 13 undefined on input line 126.
 
 
-Underfull \hbox (badness 2409) in paragraph at lines 147--156
+Underfull \hbox (badness 2409) in paragraph at lines 144--153
 []\T2A/cmr/m/it/14.4 Пусть ре-ше-ние (1.1[]) $\OML/cmm/m/it/14.4 x \OT1/cmr/m/n
 /14.4 = \OML/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; ; '\OT1/c
 mr/m/n/14.4 )$ \T2A/cmr/m/it/14.4 ог-ра-ни-че-но,
  []
 
 [13]
-Underfull \hbox (badness 1292) in paragraph at lines 172--179
+Underfull \hbox (badness 1292) in paragraph at lines 169--176
 []\T2A/cmr/m/it/14.4 Предельное урав-не-ние оп-ре-де-ля-ет-ся в под-об-ла-сти
  []
 
 
-Underfull \hbox (badness 4569) in paragraph at lines 181--184
+Underfull \hbox (badness 4569) in paragraph at lines 178--181
 []\T2A/cmr/m/n/14.4 Допустим, что пра-вая часть урав-не-ния (1.1[]) име-ет зна-
 че-ние
  []
 
 
-LaTeX Warning: Reference `sec1.2' on page 14 undefined on input line 189.
+LaTeX Warning: Reference `sec1.2' on page 14 undefined on input line 186.
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 185--191
+Underfull \hbox (badness 1033) in paragraph at lines 182--188
 \T2A/cmr/m/n/14.4 нов-ным ис-поль-зу-е-мым свой-ством при этом опре-де-ле-нии и
  усло-вии
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--213
+Underfull \hbox (badness 10000) in paragraph at lines 201--210
 []\T2A/cmr/m/it/14.4 Будем го-во-рить, что отоб-ра-же-ние
  []
 
 
-Underfull \hbox (badness 3407) in paragraph at lines 204--213
+Underfull \hbox (badness 3407) in paragraph at lines 201--210
 \T2A/cmr/m/it/14.4 и по-сле-до-ва-тель-ность непре-рыв-ных отоб-ра-же-ний $\OML
 /cmm/m/it/14.4 u[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )\OM
 L/cmm/m/it/14.4 ;$ \T2A/cmr/m/it/14.4 та-кие,
  []
 
 [14]
-Underfull \hbox (badness 2213) in paragraph at lines 241--244
+Underfull \hbox (badness 2213) in paragraph at lines 238--241
 []\T2A/cmr/m/it/14.4 Функция $\OML/cmm/m/it/14.4 U \OMS/cmsy/m/n/14.4  \OML/cm
 m/m/it/14.4 F[]$ \T2A/cmr/m/it/14.4 есть пре-дель-ная к $\OML/cmm/m/it/14.4 W;$
 
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 241--244
+Underfull \hbox (badness 2035) in paragraph at lines 238--241
 \T2A/cmr/m/it/14.4 ес-ли су-ще-ству-ет $\OML/cmm/m/it/14.4 t[] \OMS/cmsy/m/n/14
 .4 ! \OT1/cmr/m/n/14.4 +\OMS/cmsy/m/n/14.4 1\OML/cmm/m/it/14.4 ;$ \T2A/cmr/m/it
 /14.4 та-кая, что по-сле-до-ва-тель-ность
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--253
+Underfull \hbox (badness 10000) in paragraph at lines 243--250
 []\T2A/cmr/m/it/14.4 Будем го-во-рить, что отоб-ра-же-ние
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 295--298
+Underfull \hbox (badness 10000) in paragraph at lines 292--295
 []\T2A/cmr/m/it/14.4 2) ре-ше-ние $\OML/cmm/m/it/14.4 x \OT1/cmr/m/n/14.4 = \OM
 L/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; ; '\OT1/cmr/m/n/14.4
  )$ \T2A/cmr/m/it/14.4 урав-не-ния (1.1[]) ог-ра-ни-че-но,
  []
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 299--306
+Underfull \hbox (badness 1721) in paragraph at lines 296--303
 \T2A/cmr/m/it/14.4 и со-от-вет-ству-ю-щее мно-жест-во $\OML/cmm/m/it/14.4 V[]\O
 T1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; c\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ;
 $ \T2A/cmr/m/it/14.4 ре-ше-ние $\OML/cmm/m/it/14.4 y \OT1/cmr/m/n/14.4 = \OML/c
@@ -602,48 +670,48 @@ m/m/it/14.4 ;$
  []
 
 
-LaTeX Warning: Reference `c-3.1' on page 16 undefined on input line 315.
+LaTeX Warning: Reference `c-3.1' on page 16 undefined on input line 312.
 
 
-LaTeX Warning: Reference `3.10'' on page 16 undefined on input line 324.
+LaTeX Warning: Reference `3.10'' on page 16 undefined on input line 321.
 
 
-Underfull \hbox (badness 6592) in paragraph at lines 317--325
-[]\T2A/cmr/m/it/14.4 Если в усло-ви-ях тео-ре-мы I.2.1[] пред-по-ло-жить
+Underfull \hbox (badness 4429) in paragraph at lines 314--322
+[]\T2A/cmr/m/it/14.4 Если в усло-ви-ях тео-ре-мы II.2.1[] пред-по-ло-жить
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 317--325
+Underfull \hbox (badness 2213) in paragraph at lines 314--322
 \T2A/cmr/m/it/14.4 так-же, что су-ще-ству-ет по-сле-до-ва-тель-ность $\OML/cmm/
 m/it/14.4 t[] \OMS/cmsy/m/n/14.4 ! \OT1/cmr/m/n/14.4 +\OMS/cmsy/m/n/14.4 1\OML/
 cmm/m/it/14.4 ;$ \T2A/cmr/m/it/14.4 оп-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--325
+Underfull \hbox (badness 10000) in paragraph at lines 314--322
 \T2A/cmr/m/it/14.4 ре-де-ляе-мые ко-то-рой пре-дель-ная па-ра $\OT1/cmr/m/n/14.
 4 (\OML/cmm/m/it/14.4 g[]; U[]\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/it/14.4 и мно-жес
 т-во
  []
 
-
-LaTeX Warning: Reference `t-3.3' on page 16 undefined on input line 331.
-
-
-LaTeX Warning: Reference `t-3.4' on page 16 undefined on input line 331.
-
-
-LaTeX Warning: Reference `t-4.2' on page 16 undefined on input line 336.
-
 [16]
 
-LaTeX Warning: Reference `r332' on page 17 undefined on input line 349.
+LaTeX Warning: Reference `t-3.3' on page 17 undefined on input line 328.
 
 
-LaTeX Warning: Reference `t-4.4' on page 17 undefined on input line 351.
+LaTeX Warning: Reference `t-3.4' on page 17 undefined on input line 328.
 
 
-Underfull \hbox (badness 2772) in paragraph at lines 363--367
+LaTeX Warning: Reference `t-4.2' on page 17 undefined on input line 333.
+
+
+LaTeX Warning: Reference `r332' on page 17 undefined on input line 346.
+
+
+LaTeX Warning: Reference `t-4.4' on page 17 undefined on input line 348.
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 360--364
 \T2A/cmr/m/it/14.4 та-кой, что $\OML/cmm/m/it/14.4 V\OT1/cmr/m/n/14.4 (\OML/cmm
 /m/it/14.4 t; \OT1/cmr/m/n/14.4 0) = 0\OML/cmm/m/it/14.4 ;$ $a[]\OT1/cmr/m/n/14
 .4 (\OMS/cmsy/m/n/14.4 j\OML/cmm/m/it/14.4 '\OT1/cmr/m/n/14.4 (0)\OMS/cmsy/m/n/
@@ -783,7 +851,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  3786 strings out of 493634
  46473 string characters out of 3135239
- 111311 words of memory out of 3000000
+ 111362 words of memory out of 3000000
  7052 multiletter control sequences out of 15000+200000
  17176 words of font info for 44 fonts, out of 3000000 for 9000
  1073 hyphenation exceptions out of 8191
@@ -808,9 +876,9 @@ ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Us
 ers/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
 fonts/symbols/msam10.pfb>
-Output written on main.pdf (34 pages, 319403 bytes).
+Output written on main.pdf (34 pages, 323759 bytes).
 PDF statistics:
- 535 PDF objects out of 1000 (max. 8388607)
+ 544 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
