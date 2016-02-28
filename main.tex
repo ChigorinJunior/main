@@ -1,0 +1,882 @@
+\documentclass[12pt,a4paper,final,twoside,russian]{report}
+\usepackage{epsfig}                                                 %%
+\usepackage{amssymb}                                                %%
+\usepackage{amsmath}                                                %%
+\usepackage{mathrsfs}                                               %%
+\usepackage{texdraw}                                                %%
+\usepackage{amsfonts}                                               %%
+\usepackage[mathscr]{eucal}                                         %%
+\usepackage{latexsym}                                               %%
+\usepackage{subfigure} % was: subfignarms.sty                       %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[T2A]{fontenc}         %%%%%Cyrillic fonts               %%
+\usepackage[cp1251]{inputenc}     %%%%%for MS Windows coding        %%
+\usepackage[russian]{babel}       %%%%%Russain grammar rules        %%
+
+\sloppy
+
+
+\hfuzz=0.1pt
+
+\hyphenation{пос-ле-дей-ст-вия тео-ре-мы сле-дую-щее
+ог-ра-ни-че-но по-сле-до-ва-тель-ность не-ко-то-рой
+функ-ци-о-на-ла со-от-вет-ст-вии эк-ви-асимп-то-ти-чес-ки
+асимп-то-ти-чес-ки ус-той-чи-во так-же рав-но-мер-но
+неп-ре-рыв-ной по-ло-жи-тель-ное мо-мент ин-ва-ри-ант-ным
+от-но-си-тель-но оп-ре-де-ляе-мые рав-но-мер-но-го
+диф-фе-рен-ци-руе-мой ре-ше-ний Соот-вет-ствен-но ут-верж-дать
+мно-жест-во оп-ре-де-ля-ет-ся функ-ция сос-тав-ляю-щая
+пре-дель-ное ус-ло-вия пред-став-ля-ет-ся
+под-пос-ле-до-ва-тель-ность на-зы-ва-ет-ся пре-дель-ных
+обя-за-тель-но об-ра-зу-ет пред-ком-пакт-но удов-лет-во-ряю-щий
+удов-лет-во-ряю-щие экс-по-нен-циаль-но эк-ви-при-тя-ги-ваю-щим
+при-тя-ги-ваю-щим ре-ше-ние от-но-ше-нию не-ко-то-ро-го
+по-лу-ча-ем удов-лет-во-ряю-щая удов-лет-во-ряю-щее
+под-после-до-ва-тель-нос-ти}
+
+
+\headheight=0cm \topmargin=0cm \headsep=1cm \textwidth=16cm
+\textheight=24cm \oddsidemargin=0cm \evensidemargin=0cm
+\mathsurround=2mm
+\def\e{\varepsilon}
+\def\O{\Omega}
+\def\big{\bigtriangleup}
+\def\t{\tilde}
+\def\o{\omega}
+\def\l{\lambda}
+\def\a{\alpha}
+\def\O{\Omega}
+\def\o{\omega}
+\def\b{\beta}
+\def\d{\delta}
+\def\eps{\varepsilon}
+\def\g{\gamma}
+\def\v{\varphi}
+\def\s{\sigma}
+\def\p{\partial}
+\def\f{\forall}
+\def\u{\underline}
+\def\l{\lambda}
+\newcommand{\Proof}{\noindent{\bf Доказательство. }}
+\newcommand{\Endproof}{\kern 0.3pt\hfill$\Box$\medbreak}
+\newcommand{\Noproof}{\kern 0.3pt\hfill$\Box$\par}
+\newcommand*{\No}{\textnumero}
+
+\renewcommand{\baselinestretch}{1.01}
+\newcommand{\ds}{\displaystyle}
+\newtheorem{problem}{З{\small{\bf АДАЧА}}}[section]
+\newtheorem{Def}{О{\small{\bf ПРЕДЕЛЕНИЕ}}}[section]
+\newtheorem{Ass}{П{\small{\bf РЕДПОЛОЖЕНИЕ}}}[section]
+\newtheorem{Th}{Т{\small{\bf ЕОРЕМА}}}[section]
+\newtheorem{Lemm}{Л{\small{\bf ЕММА}}}[section]
+\newtheorem{lemm}{Л{\small{\bf ЕММА}}}[section]
+\newtheorem{Cor}{С{\small{\bf ЛЕДСТВИЕ}}}[section]
+\newtheorem{Rem}{З{\small АМЕЧАНИЕ}}[section]
+\newtheorem{prop}{С{\small ВОЙСТВО}}[section]
+\newtheorem{example}{П{\small РИМЕР}}[section]
+\newtheorem{statements}{У{\small ТВЕРЖДЕНИЕ}}[section]
+
+\pagestyle{myheadings}
+
+\newcommand{\ex}{\par\noindent\addtocounter{example}{1}{\bf Пример \arabic{section}.\arabic{example}}}
+\renewcommand{\thechapter}{\Roman{chapter}}
+\renewcommand{\thesection}{\arabic{section}}
+\makeatletter
+
+\makeatletter \@addtoreset{equation}{section}
+\renewcommand{\p@section}{\thechapter.}
+\renewcommand{\p@subsection}{\thechapter.}
+\renewcommand{\p@example}{\thechapter.}
+\renewcommand{\p@Th}{\thechapter.}
+\renewcommand{\p@Ass}{\thechapter.}
+\renewcommand{\p@Def}{\thechapter.}
+\renewcommand{\p@Lemm}{\thechapter.}
+\renewcommand{\p@lemm}{\thechapter.}
+\renewcommand{\p@prop}{\thechapter.}
+\renewcommand{\p@Rem}{\thechapter.}
+\renewcommand{\p@statements}{\thechapter.}
+\renewcommand{\p@problem}{\thechapter.}
+
+
+\newcommand{\l@atab}[2]{\hbox to\textwidth{#1\dotfill #2}}
+
+\newcommand{\V}{V}
+\renewcommand{\le}{\leqslant}
+\renewcommand{\ge}{\geqslant}
+\renewcommand{\leq}{\leqslant}
+\renewcommand{\geq}{\geqslant}
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+\renewcommand{\section}{\@startsection{section}{1}{%
+0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}{\bf \large}}
+
+
+\makeatother \binoppenalty=10000 \relpenalty=10000
+\addto{\captionsrussian}{
+\renewcommand{\bibname}{\Large\bf БИБЛИОГРАФИЧЕСКИЙ СПИСОК}}
+
+\begin{document}
+\begin{titlepage}
+\vglue 6cm
+\begin{center}
+{\bf \Huge   Макаров Д.С}
+
+\end{center}
+\vglue 2cm
+\begin{center}{\bf\LARGE
+КАНДИДАТСКАЯ \\}
+\end{center}
+
+\begin{center}
+Ульяновск\\ Издательство Ульяновского государственного
+университета\\ 2016
+\end{center}
+\newpage
+
+\end{titlepage}
+\setcounter{page}{3} \markboth{Оглавление}{}
+\markright{Оглавление}{}
+
+\makeatletter
+\renewcommand{\@evenhead}%
+{\raisebox{0pt}[\headheight][0pt]{%
+\vbox{\hbox to\textwidth{\thepage \hfil \strut \leftmark}\hrule}}}
+\renewcommand{\@oddhead}%
+{\raisebox{0pt}[\headheight][0pt]{%
+\vbox{\hbox to\textwidth{\rightmark \hfil \strut\thepage}\hrule}}}
+\makeatother
+
+\large \tableofcontents
+
+\newpage
+
+\input{chapter1}
+
+\newpage
+
+\newpage
+
+\input{chapter2}
+
+\newpage
+
+\markboth{Библиографический список}{} \markright{Библиографический
+список}{}
+\begin{thebibliography}{99}
+\bibitem{azbmr91}
+\addcontentsline{toc}{atab}{\bf БИБЛИОГРАФИЧЕСКИЙ СПИСОК}
+ Азбелев Н.В., Максимов В.П., Рахматуллина Л.Ф. Введение в теорию
+функционально дифференциальных уравнений. М.: Наука, 1991. 277 с.
+\bibitem{ale00}
+Алексеенко Н.В. Устойчивость решений нелинейных почти
+периодических систем функционально-дифференциальных уравнений
+запаздывающего типа // Известия Вузов. Сер. Математика. 2000. \No
+2. С.3--6.
+\bibitem{anak83}
+Ананьевский И.М., Колмановский В.Б. О стабилизации некоторых
+регулируемых систем с последействием // Автоматика и телемеханика.
+1989. \No 9. C.34--42.
+\bibitem{ana98}
+Анашкин О.В. Достаточные условия устойчивости и неустойчивости для
+одного класса нелинейных функционально-дифференциальных уравнений
+// Дифференциальные уравнения. 1998. Т.34. \No 7. С.867--875.
+\bibitem{and79}
+Андреев А.С. Об асимптотической устойчивости и неустойчивости
+неавтономных систем // ПММ. 1979. Т.43. Вып.5. С.796--805.
+\bibitem{and80}
+ Андреев А.С. Об асимптотической устойчивости и неустойчивости неавтономных систем //
+ ДАН УзССР. 1980. \No 7. С.20--22.
+\bibitem{and841}
+ Андреев А.С. Об асимптотической устойчивости и неустойчивости нулевого
+решения неавтономной системы // ПММ. 1984. Т.48. Вып.2.
+С.225--232.
+\bibitem{and842}
+ Андреев А.С. Об асимптотической устойчивости и неустойчивости относительно части переменных
+  // ПММ. 1984. Т.48. Вып.5. С.707--713.
+\bibitem{and87}
+ Андреев А.С. Об исследовании частичной асимптотической устойчивости и
+неустойчивости на основе предельных уравнений // ПММ. 1987. Т.51.
+Вып.2. C.253--260.
+\bibitem{and912}
+ Андреев А.С. Об исследовании частичной асимптотической устойчивости // ПММ. 1991. Т.55.
+Вып.4. C.539--547.
+\bibitem{and911}
+ Андреев А.С. Об асимптотической устойчивости и неустойчивости нулевого
+решения неавтономного
+фун\-к\-ци\-о\-наль\-но-диф\-фе\-рен\-ци\-аль\-но\-го уравнения //
+Проблемы аналитической механики, устойчивости и управления
+движением. Новосибирск: Изд-во "Наука", 1991. С.36--40.
+\bibitem{and94}
+ Андреев А.С. Методы исследования устойчивости неавтономных уравнений.
+Учебное пособие. Ульяновск: Изд-во фМГУ, 1994. 80 с.
+\bibitem{and97}
+ Андреев А.С. Об устойчивости неавтономного функционально дифференциального
+уравнения // Доклады РАH. 1997. Т.356. \No 7. C.151--153.
+\bibitem{and031}
+ Андреев А.С. Об управляемости нестационарной
+        нелинейной системы // Обозрение прикладной и
+        промышленной математики. 2003. Т.10. Вып.1. С.88.
+\bibitem{and032}
+ Андреев А.С. Некоторые задачи об устойчивости
+        фун\-кци\-ональ\-но-диф\-фе\-рен\-ци\-аль\-ных уравнений с конечным
+        и неограниченным запаздыванием // Ученые записки Ульяновского государственного университета.
+        Сер. Фундаментальные проблемы математики и
+        механики. Ульяновск. 2003. Вып.1(13). С.3--11.
+\bibitem{and041}
+Андреев А.С. К методу К.П.~Персидского в задачах о неустойчивости
+// Математический журнал. Алматы. 2004. Т.4. \No 2(12). С.76--82.
+\bibitem{and042}
+Андреев А.С. О стабилизации движения управляемой системы с
+запаздывающей обратной связью // Обозрение прикладной и
+промышленной математики. 2004. Т.11. Вып. 3. С. 612--613.
+\bibitem{andb02}
+ Андреев А.С., Бойкова Т.А. Знакопостоянные функции
+ Ляпунова в задачах об устойчивости // Механика твердого
+тела. 2002. Вып.32. С.109--116.
+\bibitem{andl96}
+Андреев А.С., Лысяков В.Н. К методу Ляпунова в задаче об
+устойчивости функционально дифференциального уравнения  // Ученые
+записки Ульяновского государственного университета.
+        Сер. Фундаментальные проблемы математики и
+        механики. Ульяновск. 1996. Вып.1(2). С.5--10.
+\bibitem{andp991}
+Андреев А.С., Павликов С.В. Об устойчивости по части переменных
+неавтономного функционально дифференциального уравнения // ПММ.
+1999. Т.63. Вып.1. С. 3--12.
+\bibitem{andp992}
+ Андреев А.С., Павликов С.В. Исследование устойчивости
+        функционально-дифференциальных уравнений на основе
+        знакопостоянных функционалов Ляпунова // Труды
+        Средневолжского математического общества. 1999. Т.2(1)
+        С.74--75.
+\bibitem{andp00}
+Андреев А.С., Павликов С.В. Метод функционалов Ляпунова в
+исследовании устойчивости функционально-дифференциальных уравнений
+// Матем. заметки. 2000. Т.68. \No 3. С.323--331.
+\bibitem{andp01}
+Андреев А.С., Павликов С.В. Знакопостоянные функционалы Ляпунова в
+задаче об устойчивости относительно части переменных // Труды
+Четвертой Международной научно-практической конференции
+"Математическое моделирование физических, экономических,
+технических, социальных систем и процессов". (10-12 декабря
+2001г., г.Ульяновск). Секция Математики. Ульяновск: УлГУ, 2001.
+С.15--16.
+\bibitem{andp03}
+Андреев А.С., Павликов С.В. К задаче об устойчивости
+        по части переменных функционально-дифференциальных
+        уравнений // Ученые записки Ульяновского государственного университета.
+        Сер. Фундаментальные проблемы математики и
+        механики.  Ульяновск. 2003. Вып.1(13). С.12--21.
+\bibitem{andp04}
+Андреев А.С., Павликов С.В. Незнакоопределенные функционалы
+Ляпунова в задаче об устойчивости функционально-дифференциальных
+уравнений с конечным запаздыванием // Механика твердого тела.
+2004. Вып.34. С.112--120.
+\bibitem{ands01}
+ Андреев А.С., Седова Н.О. Методы исследования
+        устойчивости неавтономных уравнений. Учебное пособие.
+        Ульяновск: Изд-во УлГУ, 2001. 60 с.
+\bibitem{andh981}
+  Андреев А.С., Хусанов Д.Х. Предельные уравнения в задаче об устойчивости
+функционально-дифференциального уравнения // Дифференциальные
+уравнения. 1998. Т.34. \No 4. C.435--440.
+\bibitem{andh982}
+  Андреев А.С., Хусанов Д.Х. К методу функционалов Ляпунова в задаче
+об асимптотической устойчивости и неустойчивости //
+Дифференциальные уравнения. 1998. Т.34. \No 7. C.876--885.
+\bibitem{andh99}
+ Андреев А.С., Хусанов Д.Х. Об асимптотической устойчивости и
+ неустойчивости функционально-дифференциального уравнения с периодической
+ правой частью // Ученые записки Ульяновского государственного университета.
+ Сер. Фундаментальные проблемы математики и механики. Ульяновск. 1999. Вып.1(6). С.3--17.
+\bibitem{andksh92}
+Андреева Е.А., Колмановский В.Б., Шайхет Л.Е. Управление системами
+с последействием. М.: Наука, 1992. 333 с.
+\bibitem{astbk82}
+Астанов И.С., Белоцерковский С.М., Каганов Б.О., Кочетков Ю.А. О
+системах интегро-дифференциальных уравнений, описывающих
+неустановившееся движение тел в сплошной среде // Дифференциальные
+уравнения. 1982. Т.18. \No 9. С.1628--1637.
+\bibitem{belk67}
+ Беллман Р., Кук К. Дифференциально-разностные уравнения. М.: Мир,
+1967. 548 c.
+\bibitem{bilgk96}
+Билашевич И.В., Габасов Р., Кириллова Ф.М. Стабилизация
+динамических систем при наличии запаздываний в канале обратной
+связи // Автоматика и телемеханика. 1996. \No 6. С.31--39.
+\bibitem{brash73}
+Бранец В.Н., Шмыглевский И.П. Применение кватернионов в задачах
+ориентации твердого тела. М.: Наука, 1973. 320 с.
+\bibitem{vol76}
+ Вольтерра В. Математическая теория борьбы за существование. М.: Наука,
+1976. 288 с.
+\bibitem{vol82}
+ Вольтерра В. Теория функционалов, интегральных и интегро дифференциальных
+уравнений. М.: Наука, 1982. 302 с.
+\bibitem{vor91}
+ Воротников В.И. Устойчивость динамических систем по отношению к части
+переменных.  М.: Hаука, 1991. 288 с.
+\bibitem{vorr01}
+ Воротников В.И., Румянцев В.В. Устойчивость и управление по части
+ координат фазового вектора динамических систем: теория, методы и
+ приложения. М.: Научный мир, 2001. 320 с.
+\bibitem{gai72}
+ Гайшун И.В. Асимптотическая устойчивость одной системы с запаздыванием //
+Дифференциальные уравнения. 1972. Т.8. \No 5. С. 906--908.
+\bibitem{gaik941}
+ Гайшун И.В., Княжище Л.Б. Теоремы устойчивости уравнений с запаздыванием,
+ использующие немонотонные функционалы Ляпунова // Докл. Ан
+ Беларусии. 1994. Т.38. \No 3. С.5--8.
+\bibitem{gaik942}
+ Гайшун И.В., Княжище Л.Б. Hемонотонные функционалы Ляпунова. Условия
+устойчивости уравнений с запаздыванием // Дифференциальные
+уравнения. 1994. Т.30. \No 8. C.1291--1298.
+\bibitem{gan67}
+Гантмахер Ф.Р. Теория матриц. М.: Наука, 1967. 575 с.
+\bibitem{gor71}
+ Горяченко В.Д. Методы теории устойчивости в динамике ядерных реакторов.
+М.: Атомиздат, 1971. 264 с.
+\bibitem{gor77}
+ Горяченко В.Д. Методы исследования устойчивости ядерных реакторов.
+М.: Атомиздат, 1977. 296 с.
+\bibitem{dalk70}
+Далецкий Ю.Л., Крейн М.Г. Устойчивость решений дифференциальных
+уравнений в банаховом пространстве. М.: Наука, 1970. 534 с.
+\bibitem{drokt92}
+Дроздов А.Д., Колмановский В.Б., Триджанте Д. Об устойчивости
+системы хищник-жертва // Автоматика и телемеханика. 1992. \No 11.
+С.57--64.
+\bibitem{jikl78}
+Жиков В.В., Левитан Б.М. Почти периодические функции и
+дифференциальные уравнения. М.: Изд-во МГУ, 1978. 205 с.
+\bibitem{jur97}
+Журавлев В.Ф. Теоретическая механика. М.: Наука, Физматлит, 1997.
+320 с.
+\bibitem{kal86}
+ Калистратова Т.А. Об устойчивости по части переменных систем с запаздыванием
+// Авт. и телемех. 1986. \No 5. С.32--37.
+\bibitem{kim87}
+ Ким А.В. К методу функций Ляпунова для систем с последействием // Метод
+функций Ляпунова в анализе динамики систем. Новосибирск, 1987.
+С.79--83.
+\bibitem{kim901}
+ Ким А.В. О методе функционалов Ляпунова для систем с последействием //
+Авт. и телемех. 1990. \No 2. С.24--31.
+\bibitem{kim92}
+ Ким А.В. Прямой метод Ляпунова в теории устойчивости систем с последействием.
+Екатеринбург: Изд-во Уральского ун-та, 1992. 142 с.
+\bibitem{kim96}
+ Ким А.В. i-Гладкий анализ и функционально-дифференциальные
+ уравнения. Екатеринбург: УрО РАН, 1996. 234 с.
+\bibitem{kna97}
+  Княжище   Л.Б.   Локализация    предельных   множеств   и
+асимптотическая    устойчивость      уравнений    с запаздыванием
+// Докл. АН Беларуси. 1997. Т.41. \No 1. С.26--29.
+\bibitem{kna981}
+  Княжище   Л.Б.   Локализация    предельных   множеств   и
+асимптотическая    устойчивость     неавтономных    уравнений    с
+запаздыванием. I// Дифференциальные уравнения. 1998. Т.34. \No 2.
+С.189--196.
+\bibitem{kna982}
+  Княжище   Л.Б.   Локализация    предельных   множеств   и
+асимптотическая    устойчивость     неавтономных    уравнений    с
+запаздыванием. II// Дифференциальные уравнения. 1998. Т.34. \No 8.
+С.1056--1065.
+\bibitem{kna00}
+  Княжище   Л.Б. Функционалы Ляпунова и условия равномерной
+  асимптотической устойчивости уравнений с запаздыванием // Докл.
+  НАН Беларуси. 2000. Т.44. \No 5. С.40--43.
+\bibitem{knash97}
+ Княжище Л.Б., Щавель H.А. Немонотонные функционалы Ляпунова и оценки решений
+ дифферециальных уравнений с запаздыванием //
+Дифференциальные уравнения. 1997. Т.33. \No 2. С.205--211.
+\bibitem{kodl58}
+ Коддингтон Э.А., Левинсон Н. Теория обыкновенных дифференциальных уравнений.
+М.: ИЛ, 1958. 474 с.
+\bibitem{kol93}
+ Колмановский В.Б. Об устойчивости некоторых систем с произвольным
+последействием // Докл. РАН. 1993. Т.331. \No 4. С.421--424.
+\bibitem{kol95}
+ Колмановский В.Б. Об устойчивости некоторых систем с последействием
+и переменными коэффициентами // ПММ. 1995. Т.59. Вып.1. С.71--81.
+\bibitem{kol96}
+ Колмановский В.Б. Об устойчивости систем с последействием нейтрального
+типа // ПММ. 1996. Т.60. Вып.2. С.210--222.
+\bibitem{koln81}
+ Колмановский В.Б., Носов В.Р. Устойчивость и периодические режимы регулируемых
+систем с последействием. М.: Наука, 1981. 448 с.
+\bibitem{koln84}
+ Колмановский В.Б., Носов В.Р. Системы с последействием нейтрального
+типа // Автоматика и телемеханика. 1984. \No 1. С.5--35.
+\bibitem{kolf76}
+ Колмогоров А.Н., Фомин С.В. Элементы теории функций и функционального анализа.
+М.: Наука, 1976. 543с.
+\bibitem{korl85}
+Кордуняну К., Лакшмикантам В. Уравнения с неограниченным
+запаздыванием // Автоматика и телемеханика. 1985. \No 7. С.5--44.
+\bibitem{kra561}
+ Красовский Н.Н. О применении второго метода А.М.Ляпунова для уравнений с
+запаздыванием по времени // ПММ. 1956. Т.20. \No 3. С.315--327.
+\bibitem{kra562}
+ Красовский Н.Н. Об асимптотической устойчивости систем с последействием
+// ПММ. 1956. Т.20. \No 4. С.513--518.
+\bibitem{kra591}
+ Красовский Н.Н. Некоторые задачи теории устойчивости движения. М.:
+Физматгиз, 1959. 211 с.
+\bibitem{krao63}
+Красовский Н.Н., Осипов Ю.С. О стабилизации движений управляемого
+объекта с запаздыванием в системе регулирования // Изв. АН СССР.
+Техническая кибернетика. 1963. \No 6. С.3--15.
+\bibitem{kra66}
+Красовский Н.Н. Проблемы стабилизации управляемых движений //
+Малкин И.Г. Теория устойчивости. Доп.4. М.: Наука, 1966.
+С.475--514.
+\bibitem{laklm91}
+Лакшмикантам В., Лила С., Мартынюк А.А. Устойчивость движения:
+метод сравнения. Киев: Наукова думка, 1991. 248 с.
+\bibitem{lakm93}
+Лакшмикантам В., Мартынюк А.А. Развитие прямого метода Ляпунова
+для систем с последействием (обзор) // Прикладная механика. 1993.
+Т.29(39). \No 2. С.3--15.
+\bibitem{luss82}
+ Люстерник Л.А., Соболев В.И. Краткий курс функционального анализа.
+М.: Высшая школа, 1982. 271 с.
+\bibitem{lap50}
+ Ляпунов А.М. Общая задача об устойчивости движения.  Л.: Гостехиздат,
+1950. 472 с.
+\bibitem{mal66}
+ Малкин И.Г. Теория устойчивости движения. Изд. 2-е. М.: Наука,
+1966. 530 с.
+\bibitem{mar91}
+Маркеев А.П. Теоретическая механика. М.: Наука, 1991. 414 с.
+\bibitem{marksh90}
+ Мартынюк А.А., Като Д., Шестаков А.А. Устойчивость движения
+метод предельных уравнений. Киев: Hаукова думка, 1990. 256 с.
+\bibitem{mat00}
+Матросов В.М. Метод векторных функций Ляпунова: анализ
+динамических свойств нелинейных систем. М.: Физматлит. 2000. 380
+с.
+\bibitem{mash72}
+ Мышкис А.Д. Линейные дифференциальные уравнения с запаздывающим аргументом.
+ М.: Наука, 1972. 352 с.
+\bibitem{mash77}
+ Мышкис А.Д. О некоторых проблемах теории дифференциальных
+ уравнений с отклоняющимся аргументом // Успехи матем. наук. 1977.
+ Т.32. Вып.2(194). С.173--202.
+\bibitem{mash84}
+ Мышкис А.Д. Предисловие редактора перевода. В кн.: Хейл Дж. Теория
+ функционально-дифференциальных уравнений. М.: Мир, 1984. С.5--6.
+\bibitem{mashe67}
+ Мышкис А.Д., Эльсгольц Л.Э. Состояние и проблемы теории
+ дифференциальных уравнений с отклоняющимся аргументом // Успехи
+ матем. наук. 1967. Т.22. Вып.2. С.21--57.
+\bibitem{nem49}
+Немыцкий В.В., Степанов В.В. Качественная теория дифференциальных
+уравнений. М.-Л., Гос. изд-во техн.-теор. лит-ры. 1949. 550 с.
+\bibitem{nov69}
+Новоселов В.С. Аналитическая механика систем с переменными
+массами. Л.: Изд-во ЛГУ, 1969. 239 с.
+\bibitem{nor65}
+ Норкин С.Б. Дифференциальные уравнения второго порядка с запаздывающим
+аргументом. М.: Наука, 1965. 354 с.
+\bibitem{osi65}
+ Осипов Ю.С. О стабилизации управляемых систем с запаздыванием
+// Дифференциальные уравнения. 1965. Т.1. \No 5. С.605--618.
+\bibitem{pav961}
+ Павликов С.В. Метод функционалов Ляпунова в исследовании устойчивости
+ функционально-дифференциальных уравнений // Ученые записки Ульяновского государственного
+университета. Сер. Фундаментальные проблемы математики и механики.
+Ульяновск: Изд-во УлГУ,  1996. Вып. 1. Ч.II. С. 46--56.
+\bibitem{pav962}
+ Павликов С.В. Об устойчивости нулевого решения функционально-дифференциального
+уравнения второго порядка// Ученые записки Ульяновского
+государственного университета. Сер. Фундаментальные проблемы
+математики и механики.  Ульяновск: УлГУ, 1996. Вып. 2. С. 32--33
+\bibitem{pav97}
+ Павликов С.В. О стабилизации управляемых механических систем
+с обратной связью с запаздыванием // Ученые записки Ульяновского
+государственного университета. Сер. Фундаментальные проблемы
+математики и механики.  Ульяновск: УлГУ, 1997. Вып. 2(4). С.
+66--70.
+\bibitem{pav02}
+Павликов С.В. Знакопостоянные функционалы Ляпунова в
+        задаче об устойчивости функционально-дифференциальных
+        уравнений с конечным запаздыванием // Ученые записки
+        Ульяновского
+государственного университета. Сер. Фундаментальные проблемы
+математики и механики.  Ульяновск: УлГУ,  2002. Вып.2(12).
+С.30--39.
+\bibitem{pav031}
+Павликов С.В. Предельные уравнения и функционалы Ляпунова в задаче
+об устойчивости по части переменных // Ученые записки
+        Ульяновского
+государственного университета. Сер. Фундаментальные проблемы
+математики и механики.  Ульяновск: УлГУ,  2003. Вып.1(13).
+С.63--74.
+\bibitem{pav03}
+ Павликов С.В. Об управляемости и стабилизации
+        управляемых систем с запаздыванием // Обозрение
+        прикладной и промышленной математики. 2003. Т.10.
+        Вып.1. С.201.
+\bibitem{pav05}
+Павликов С.В. О стабилизации движения управляемой системы с
+запаздыванием // Механика твердого тела. 2005. Вып.34.
+\bibitem{per99}
+ Перегудова О.А. К методу сравнения в исследовании
+ устойчивости функционально-дифференциальных уравнений
+ запаздывающего типа // Ученые записки Ульяновского
+государственного университета. Сер. Фундаментальные проблемы
+математики и механики.  Ульяновск: УлГУ,  1999. Вып.2(7).
+С.32--36.
+\bibitem{per05}
+Перегудова О.А. Методы сравнения и преобразования в задачах об
+устойчивости систем с запаздыванием. Учебное пособие. Ульяновск:
+Изд-во УлГУ, 2005. 83 с.
+\bibitem{pra81}
+ Прасолов А.В. О применении функций Ляпунова для
+исследования неустойчивости решений систем с последействием //
+Вестник ЛГУ. 1981. Сер.1.  19. С.116--118.
+\bibitem{raz56}
+ Разумихин Б.С. Об устойчивости систем с запаздыванием //
+ПММ. 1956. Т.20. Вып. 4. С. 500--512.
+\bibitem{raz58}
+ Разумихин Б.С. Устойчивость по первому приближению систем с запаздыванием
+// ПММ. 1958. Т.22. Вып. 2. С.155--166.
+\bibitem{raz60}
+ Разумихин Б.С. Применение метода Ляпунова к задачам устойчивости систем
+с запаздыванием // Автоматика и телемеханика. 1960. Т.21. \No 6.
+С.740--748.
+\bibitem{raz66}
+ Разумихин Б.С. Метод исследования устойчивости систем с последействием
+// Доклады АН СССР. 1966. Т.167. \No 6. С.1234--1236.
+\bibitem{raz88}
+ Разумихин Б.С. Устойчивость эредитарных систем. М.: Наука, 1988.
+ 106 с.
+\bibitem{rez83}
+Резван В. Абсолютная устойчивость автоматических систем с
+запаздыванием. М.: Наука, 1983. 300 с.
+\bibitem{rum57}
+ Румянцев В.В. Об устойчивости движения по отношению к части
+ переменных // Вестник МГУ. Сер. Мат., механ., физ., астрон., хим.
+ 1957. \No 4. С.9-16.
+\bibitem{rum68}
+ Румянцев В.В. Метод функции Ляпунова в теории устойчивости движения //
+Механика в СССР за 50 лет. Т.1. М.: Наука, 1968. С.7--66.
+\bibitem{rumo87}
+ Румянцев В.В., Озиранер А.С. Устойчивость и стабилизация движения по
+ отношению к части переменных. М.: Наука, 1987. 253 с.
+\bibitem{rushal80}
+ Руш Н., Абетс П., Лалуа М. Прямой метод Ляпунова в теории устойчивости.
+М.: Мир, 1980. 300 с.
+\bibitem{sed05}
+Седова Н.О. Вырожденные функции в исследовании асимптотической
+устойчивости решений функционально-дифференциальных уравнений //
+Мат. заметки. 2005. Т.8. \No 3. С.468--472.
+\bibitem{ser93}
+ Сергеев В.С. Об асимптотической устойчивости движений в
+некоторых классах с последствием // ПММ.  1993.  Т. 57.  Вып. 5.
+С. 166--174.
+\bibitem{ser96}
+ Сергеев В.С. Об асимптотической устойчивости и оценке области
+притяжения в некоторых системах с последействием // ПММ.  1996. Т.
+60.  Вып. 5.  C. 744--751.
+\bibitem{ter92}
+Тереки Й. Экспоненциальная и степенная асимптотическая
+устойчивость функционально-дифференциальных уравнений. В кн.
+Развитие и применение метода функций Ляпунова. Новосибирск: Наука,
+1992. С.101--107.
+\bibitem{tro02}
+Троценко Г.А. Об устойчивости решений почти периодической системы
+// Механика твердого тела. 2002. Вып. 32. С.129-133.
+\bibitem{hei84}
+ Хейл Дж. Теория функционально-дифферепнциальных уравнений. М.: Мир,
+1984. 421 с.
+\bibitem{hus89}
+Хусаинов Д.Я. Об экспоненциальной устойчивости линейных систем с
+запаздыванием // Дифференциальные уравнения. 1989. Т.25. \No 2.
+С.357--359.
+\bibitem{huss97}
+Хусаинов Д.Я. Экспоненциальная оценка решений линейных систем с
+запаздыванием при произвольном отклонении аргумента //
+Дифференциальные уравнения. 1989. Т.25. \No 9. С.1631--1633.
+\bibitem{chet90}
+   Четаев Н.Г. Устойчивость движения. М.: Наука, 1990. 276 с.
+\bibitem{shes87}
+Шестаков А.А. Прямой метод Ляпунова как метод локализации
+функциями Ляпунова предельных множеств неавтономных динамических
+процессов (на базе предельных уравнений и динамических систем) //
+Функции Ляпунова и их применение. Ан СССР. Сибирское отд.,
+Иркутский вычислит. центр. Новосибирск: Наука, 1987. С.14--48.
+\bibitem{shes90}
+   Шестаков А.А. Обобщенный прямой метод Ляпунова для систем с распределенными
+параметрами. М.: Наука, 1990. 316 с.
+\bibitem{shim60}
+   Шиманов С.Н. О неустойчивости движения систем с запаздыванием по
+времени //  ПММ. 1960. Т.24. Вып. 1. С.55--63.
+\bibitem{shim64}
+   Шиманов С.Н. Устойчивость систем с запаздыванием // Труды II Всес.
+съезда по теорет. и прикл. механике. Москва, 1964, вып. 1. М.:
+Наука, 1965. С.170--180.
+\bibitem{shegl96}
+Щеглов В.А. Устойчивость линейного дифференциального уравнения с
+распределенным запаздыванием // Дифференциальные уравнения. 1996.
+Т.32. \No 12. С.1665--1669.
+\bibitem{shegl98}
+Щеглов В.А. Устойчивость решений одного уравнения второго порядка
+с запаздыванием  // Дифференциальные уравнения. 1998. Т.34. \No
+12. С.1710--1713.
+\bibitem{els54}
+Эльсгольц Л.Э. Устойчивость решений дифференциально-разностных
+уравнений // Успехи мат. наук. 1954. Т.9. \No 4. С.95-112.
+\bibitem{els64}
+ Эльсгольц Л.Э. Введение в теорию дифференциальных уравнений с отклоняющимся
+аргументом.  М.: Наука, 1964. 127 с.
+\bibitem{elsn71}
+ Эльсгольц Л.Э., Норкин С.Б. Введение в теорию дифференциальных уравнений
+с отклоняющимся аргументом. М.: Наука, 1971. 296 с.
+\bibitem{ian78}
+Янушевский Р.Т. Управление объектами с запаздыванием. М.: Наука,
+1978. 416 с.
+\bibitem{and86}
+ Andreev A. Sulla stabilit\'a asintotica ed instabilit\'a // Rend. Sem.
+Univ. Padova. 1986. V.75. P.235--245.
+\bibitem{and97}
+Andreev A. On the stability of nonautonomous functional
+differential equations // Nonlinear Analysis. TMA. 1997. V.30.
+Part 5. P. 2847--2854.
+\bibitem{andkhu01}
+Andreev A., Khusanov D. On asymptotic stability and nonstability
+functional-differential equations with periodic right side //
+Nonlinear oscillations, 2001. V.4. \No 3. P.290--298.
+\bibitem{ands98}
+Andreev A.S., Sedova N.O. On the stability of nonautonomous
+equations with delay via limiting equtions // Functional
+Differential Equations. 1998. V.5. \No 1-2. P. 21--37.
+\bibitem{andz96}
+Andreev A., Zappala'G. On  stability for perturbed differential
+equations // Le Natematiche. 1996. V.51. F. I. P. 27--41.
+\bibitem{art771}
+Artstein Z. Topological dinamics of ordinary differential
+equations // J. Differ. Equations. 1977. V.23. P.216--223.
+\bibitem{art772}
+Artstein Z. The limiting equations of nonautonomous differential
+equations // J. Differ. Equations. 1977. V. 25. P.184--202.
+\bibitem{art78}
+Artstein A. Uniform asymptotic stability via the limiting
+equations // J. Differ. Equat. 1978. V.27. P.172--189.
+\bibitem{becbz89}
+Becker L.C., Burton T.A., Zhang S. Functional differential
+equations and Jensen's Inequality // J. of Math. Anal. and Appl.
+1989. V.138. N 1. P.135--156.
+\bibitem{ber03}
+Bernfeld S.R., Corduneanu C., Ignatyev A.O. On the stability of
+invariant sets of functional differential equations // Nonlinear
+Analysis. 2003. V.55. P.641--656.
+\bibitem{bur78}
+ Burton T.A. Uniform asymptotic stability in functional differential
+equations Proc. Amer. Math. Soc. 1978. V.68. P.195--199.
+\bibitem{bur79}
+ Burton T.A. Stability theory for delay equations // Funkcial.
+ Ekvac. 1979. V. 22. \No 1. P.67--76.
+\bibitem{burcs89}
+ Burton T.A., Casal A., Somolinos A. Upper and lower bounds for
+ Liapunov functionals // Funkcial.
+ Ekvac. 1989. V. 32. \No 1. P.23--55.
+\bibitem{burh89}
+ Burton T.A., Hatvani L. Stability theorems for nonautonomous functional
+differential equations by Liapunov functionals // Tohoku Math. J.
+1989. V.41. P.65--104.
+\bibitem{burh90}
+Burton T.A., Hatvani L. On nonuniform asymptotic stability for
+nonautonomous functional differential equations // Differential
+and Integral Equations. 1990. V.3. P.285--293.
+\bibitem{burm98}
+ Burton T.A., Makay G. Marachkov stability results for functional
+differential equations // EJQTDE, 1998.  \No 1. P.1--17.
+\bibitem{conm65}
+Conley C.C., Miller R.K. Asymptotic stability without iniform
+stability. Almost periodic coefficients // J. Differ. Equat. 1965.
+V.1. \No 1. P.333--336.
+\bibitem{cor75}
+Corduneanu C. On partial stability for delay systems // Ann.
+Polon. Math. 1975. V.29. P.357--362.
+\bibitem{cori05}
+Corduneanu C., Ignatyev O.A. Stability of invariant sets of
+functional differential equations with delay // Nonlinear Func.
+Anal. and Appl. 2005. \No 1. P.11--24.
+\bibitem{gyoh98}
+Gyori I., Hartung F. Preservation of stability in delay equations
+under delay perturbations // Journal of Math. Anal. and Appl.
+1998. V. 220. P.290--312.
+\bibitem{had97}
+ Haddock J. The "evolution" of invariance principles a la
+ Liapunov's direct method // Advances in nonlinear dynamics.
+ Stability and Control: Theory, Methods and Applications. V.5.
+ 1997. P. 261--272.
+\bibitem{hadk95}
+ Haddock J., Ko Y. Lyapunov-Razumikhin functions and an
+ instability theorem for autonomous functional-differential
+ equations with finite delay // Rocky Mtn. J. Math. 1995. V.25. P.
+ 261--267.
+\bibitem{hadkt85}
+ Haddock J., Krisztin T., Terjeki J. Invariance principles for autonomous
+functional differential equations // J. Integral Equations. 1985.
+V.10. P.123--136.
+\bibitem{hadt83}
+ Haddock J., Terj\'eki J. Liapunov-Razumikhin functions and an invariance
+principle for functional differential equations // J. Differential
+Equations. 1983. V.48. \No 1. P.95--122.
+\bibitem{hadt90}
+ Haddock J., Terj\'eki J. On the location of positive limit sets for autonomous
+functional differential equations with infinite delay //  J.
+Differential Equations. 1990. V.86.  P.1--32.
+\bibitem{hadz96}
+ Haddock J., Zhao J. Instability for autonomous and periodic
+ functional differential equations with finite delay // Funkcialay
+ Ekvacioj. 1996. V.39. P.553--570.
+\bibitem{hal63}
+  Hale J. A stability theorem for functional-differential equations // Proc. N.A.S.
+1963. V.50. P.942--946.
+\bibitem{hal69}
+  Hale J. Dynamical systems and stability // J. Math. Anal. Appl.
+  1969. V.26. P.39--59.
+\bibitem{hal74}
+  Hale J. Functional differential equations with infinite
+delays // J. of Math.An. and Applic., 1974. V. 48. P.276--293.
+\bibitem{halk78}
+  Hale J.K., Kato J. Phase space for retarded equations with infinite
+delay // Funk. Ekv., 1978. V.21. P.11--41.
+\bibitem{hat88}
+  Hatvani L. On the asymptotic stability of the solutions of functional
+differential equations // Qualitative theory of differential
+equations. Colloq. Math. Soc. J.Bolyai. Vol.53. North Holland,
+Amsterdam. 1990. P.227--238.
+\bibitem{hat96}
+  Hatvani L. On the asymptotic stability in differential systems by
+Liapunov direct method // Proceedings of the First World Congress
+of Nonlinear Analysts. Tampa, Florida, August 19-26, 1992. W.de
+6., Berlin -N.Y. 1996. P.1341--1348.
+\bibitem{hat9?}
+  Hatvani L. On the asymptotic stability by Lyapunov functionals
+  with semidefinite derivatives // Nonlinear Analysis, TMA. 1997,
+  V.30. \No 8. P. 4713--4721.
+\bibitem{hat97}
+  Hatvani L. Annulus arguments in the stability thery for
+  functional differential equations // Differ. and Integral
+  Equations. 1997. V. 10. \No 5. P. 975--1002.
+\bibitem{hat98}
+  Hatvani L. On Lyapunov's direct method for nonautonomous fde's
+  // Functional Differential Equations. 1998. V. 5. \No 3--4.
+  P.315-323.
+\bibitem{hat??}
+  Hatvani L. On the asymptotic stability for functional differential equations
+   by Lyapunov functionals // Nonlinear Anal., Theory Methods
+   Appl. 2001. 47.\No 7. P.4333--4343.
+\bibitem{hor90}
+  Hornor W.E. Invariance principles and asymptotic
+constancy of solutions of precompact functional differential
+equations // Tohoky Math. J. 1990. V.42. P.217--229.
+\bibitem{ign99}
+Ignatyev A.O. On the asymptotic stability in functional
+differential equations // Proceedings of the American Math.
+Society. 1999. V.127. \No 6. P. 1753--1760.
+\bibitem{ign02}
+Ignatyev A.O. On the partial equiasymptotic stsbility in
+functional differential equations // J. of Math. Anal. and Appl.
+2002. V. 268. P.615--628.
+\bibitem{jan01}
+Jankovic M. Control Lyapunov-Razumikhin functions and robust
+stabilization of time delay systems // IEEE Trans. on Automatic
+Control. 2001. V.46. P. 1048--1060.
+\bibitem{kat70}
+ Kato J. Uniform asymptotic stability and total stability // Tohoku Math.
+Journ. 1970, V.22. P.254--269.
+\bibitem{kat73}
+  Kato J. On Liapunov--Razumikhin type theorems for functional differential
+equations // Funkc. Evkac., 1973. V.16. \No 3. P.225--239.
+\bibitem{kat80}
+  Kato J. Liapunov's second methods in functional differential
+  equations // Tohoku Math. J. 1980. V. 32. \No 4. P. 487--492.
+\bibitem{mak94}
+  Makay G. An example on the asymptotic stability for
+functional differential equations // Nonl. Anal., TMA// 1994.
+V.23. P.365--368.
+\bibitem{mao97}
+Mao X. Comments on "An improved Razumikhin-type theorem and its
+Applications" // IEEE Transactions on automatic control. 1997. V.
+42. P. 429--430.
+\bibitem{mik69}
+ Mikolajska Z. Une remarque sur des notes der Razumichin
+et Krasovskij  sur la stabilite asimptotique // Ann. Polon. Math.,
+{\bf 22} (1969). P.69--72.
+\bibitem{mur85}
+ Murakami S. Perturbation theorems for functional differential
+equations with infinite delay via limiting equations // J. Differ.
+Equat. 1985. V.59. P.314--335.
+\bibitem{sap81}
+ Saperstone S.N. Semidynamical system in the infinite dimentional space.
+N.Y.: Springer -- Verlag. 1981. 474 p.
+\bibitem{sed_03}
+ Sedova N. On employment of semi-definite function in
+ stability of delayed equations // Journal of Mathematical
+ Analysis and Applications. 2003. V.281, \No 1. P.307--319.
+\bibitem{sed_04}
+ Sedova N. Razumikhin-type theorems in the problem on instability of
+ nonautonomous equations with finite delay // Funckcialaj
+ Ekvacioj. 2004. V.47. P.187--204.
+\bibitem{sei74}
+ Seifert G. Liapunov-Razumikhin conditions for asymptotic
+stability in functional differential equations of Volterra type //
+J. Differential equations.  1974. 16. P.289--297.
+\bibitem{sel67}
+  Sell G.R. Nonautonomous differential equations and topological
+dynamics. 1, 2 // Trans. Amer. Math. Soc., 1967. V.22. P.241--283.
+\bibitem{tan95}
+Taniguchi T. Asymptotic behavior theorems for non-autonomous
+functional differential equations via Lyapunov-Razumikhin method
+// Journal of Math. Analysis and Appl. 1995. V. 189. P.715--730.
+\bibitem{tan96}
+Taniguchi T. Asymptotic behavior theorems of solutions of
+functional differential equations with finite delay
+// Journal of Math. Analysis and Appl. 1996. V. 199. P.776--786.
+\bibitem{ter79}
+Terj\'eki J. On the asymptotic stability of solutions of
+functional differential equations // Annalea Polonici Mathematici.
+1979. V. 36. P. 299--314.
+\bibitem{wan83}
+ Wang Z. Comparison method and stability problem for functional
+ differential equations // Tohoku Math. J. 1983. V.35. P. 349--356.
+\bibitem{wan94}
+ Wang T.
+ Weakening the condition $W_1(\mid \varphi (\theta
+)\mid )\le V(t,\varphi )\le W_2(\Vert \varphi \Vert ) $ for
+uniform asymptotic stability // Nonl. Anal., TMA. 1994. V.23. \No
+2. P.251--264.
+\bibitem{yor69}
+  Yorke J.A. Some extensions of Liapunov's second method. -- SIAM, Diff.
+integ. equat., Pa, 1969, p.206--207.
+\bibitem{yos66}
+  Yoshizawa T. Stability theory by Liapunov's second method.  Tokio:
+The Math. Soc. of Japan, 1966, 216 p.
+\bibitem{yos75}
+   Yoshizawa T. Stability Theory and the Existence of Periodic Solutions and
+Almost-Periodic Solutions. Applied Math. Sciences, vol. 14, 1975.
+Springer-Verlag. N.Y. 233 p.
+\bibitem{zha95}
+ Zhang Bo. Asymptotic stability in functional
+differential equations by Lyapunov functionals // Trans. Amer.
+Math. Soc., 1995. V.347. \No 4. P.1375--1382.
+\end{thebibliography}
+
+\newpage
+\thispagestyle{empty} \vglue 2cm \begin{center}{Научное
+издание}\end{center} \vglue 2cm
+
+\begin{center}{\large\bf Андреев Александр Сергеевич}\end{center} \vglue 1cm
+\begin{center}{\bf УСТОЙЧИВОСТЬ НЕАВТОНОМНЫХ ФУНКЦИОНАЛЬНО-ДИФФЕРЕНЦИАЛЬНЫХ УРАВНЕНИЙ}\end{center} \vglue 1cm
+\vglue 1cm
+\begin{center}{Зав. отделом: Г.А. Углева\\
+Обложка: Н.В.Пенькова\\ Редактор Л.Г.Соловьева}\end{center}
+ \vglue 1cm
+
+
+\end{document}
