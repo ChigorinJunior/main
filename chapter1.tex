@@ -6,11 +6,11 @@
 \markright{\thechapter.\thesection.\hspace{1em}Предельные
 уравнения и устойчивость}{}
  \label{sec2.1}
-	Пусть $R^p$ - линейное действительное пространство $p$ --- векторов $x$ с нормой $|x|,  R$ 
+	Пусть $R^p$ --- линейное действительное пространство $p$ --- векторов $x$ с нормой $|x|,  R$ 
 	--- действительная ось, $h>0$ --- заданное действительное число, $C$ --- банахово пространство
 	непрерывных функций $\varphi:[-h,0] \rightarrow R^p$ с нормой $\|\varphi\|=max(|\varphi(s)|,-h \le s \le 0).$
 	Для непрерывной функции $x:[\alpha - h, \beta) \rightarrow R^p (\alpha, \beta \in R, \alpha < \beta)$ и каждого
-	$t \ in [\alpha, \beta)$ функцию $x_t \in C$ определим равенством $x_t(s) = x(t+s) (-h \le s \le 0)$, под $\dot x(t)$
+	$t \in [\alpha, \beta)$ функцию $x_t \in C$ определим равенством $x_t(s) = x(t+s) (-h \le s \le 0)$, под $\dot x(t)$
 	будем понимать правостороннюю производную.
 	
     Рассмотрим неавтономное  функционально-дифференциальное
@@ -24,7 +24,7 @@
 \begin{Ass}\label{AS1} Для  каждого  числа $r,$ $0<r<H,$
 существует такое число $m_r > 0$ что выполняется неравенство
 \begin{equation}\label{1.2'}
-  \left| f(t, \varphi) \right|\le m_r, \forall \phi \in \bar{C_r}.
+  \left| f(t, \varphi) \right|\le m_r, \forall \varphi \in \bar{C_r}.
 \end{equation}
 \end{Ass}
 
@@ -120,14 +120,14 @@ $t\in R;$ $\varphi _1, \varphi _2\in K$ будет выполнено неравенство
 \end{Ass}
 
 При выполнении условия (\ref{1.6}), каждая
-предельная функция $g(t,\varphi )$ также будет удовлетворять
+предельная функция $f^*(t,\varphi )$ также будет удовлетворять
 аналогичному условию Липшица относительно компакта
 $K\subset\Gamma.$
 
      Вследствие этого получим, что при предположении  \ref{AS3}
      решения
-уравнения (\ref{1.1'}) при начальном условии $(t,\varphi )\in
-\times C_H$ и уравнения (\ref{1.5'}) для $(t,\varphi )\in
+уравнения (\ref{1.1'}) при начальном условии $(t,\varphi )\in R
+\times C_H$ и уравнения (\ref{1.5'}) для $(t,\varphi )\in R
 \times\Gamma $ будут единственными.
 
 Связь между решениями уравнений  (\ref{1.1'})  и  (\ref{1.5'})
@@ -140,7 +140,7 @@ $F$ относительно последовательности $t_n\to +\infty, $ а
 _n\to\varphi\in\Gamma $ при $n\to\infty .$ Пусть $x=x(t,t_n+\alpha
 _n,\varphi _n)$  есть  решения  уравнения (\ref{1.1'}), а
 $y(t,\alpha ,\varphi )$ есть решение уравнения $\dot
-x(t)=f^*(t,x_t),$ определенное для $t\in [\alpha -h,\beta [.$
+x(t)=f^*(t,x_t),$ определенное для $t\in [\alpha -h,\beta ).$
 
 Тогда последовательность   функций $y^{n}(t)=x(t_n+t,t_n+\alpha
 _n,\varphi _n)$ сходится  к $y(t,\alpha ,\varphi )$ равномерно  по
@@ -167,7 +167,7 @@ $V(t) = V(t, x_t(\alpha, \varphi))$ представляет собой непрерывную
 
 Верхней правосторонней производной от $V$ вдоль решения $x(t, \alpha, \varphi)$
 называется значение 
-$\dot V^+(t, x_t(\alpha, \varphi)) = \lim_{\Delta t \to 0^+} sup \frac{1}{\Delta t} [V(t + \Delta t, x_{t + \Delta t}(\alpha, \varphi)) - V(t, x_t(\alpha, \varphi))]$
+$\dot V^+(t, x_t(\alpha, \varphi)) = \lim\limits_{\Delta t \to 0^+} \sup \frac{1}{\Delta t} [V(t + \Delta t, x_{t + \Delta t}(\alpha, \varphi)) - V(t, x_t(\alpha, \varphi))]$
 
 Основным   используемым   свойством   при   этом    определении
 и условии $\dot V(t,\varphi )\le -W(t,\varphi )\le 0$ является невозрастание  функции
@@ -204,7 +204,7 @@ $\{ u_k(t)\}$ сходится к $u(t)$ равномерно по $t\in [\alpha
 \dot V(t,\varphi )\le -W(t,\varphi )\le 0, \label{3.3'}
 \end{equation}
 где функционал $W=W(t,\varphi )$ ограничен, равномерно непрерывен
-на каждом множестве $\times K,$ т.е. для каждого компактного
+на каждом множестве $R \times K,$ т.е. для каждого компактного
 множества $K\subset C_H$ и любого $\varepsilon >0$ найдутся
 $m=m(K)$ и $\delta =\delta (\varepsilon ,K)>0,$ такие, что имеют
 место неравенства

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  3 MAR 2016 22:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  3 MAR 2016 22:58
 entering extended mode
 **./main.tex
 (main.tex
@@ -683,11 +683,11 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  3790 strings out of 493634
  46578 string characters out of 3135239
- 111751 words of memory out of 3000000
+ 111764 words of memory out of 3000000
  7050 multiletter control sequences out of 15000+200000
  17176 words of font info for 44 fonts, out of 3000000 for 9000
  1073 hyphenation exceptions out of 8191
- 34i,9n,27p,758b,345s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,9n,27p,757b,345s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh
 -t2a\dpi600\labx1728.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
 ur\lh\lh-t2a\dpi600\lati1440.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts
@@ -708,7 +708,7 @@ al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Admin
 mr7.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (31 pages, 310699 bytes).
+Output written on main.pdf (31 pages, 310539 bytes).
 PDF statistics:
  531 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
