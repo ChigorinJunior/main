@@ -39,7 +39,7 @@ $r_n\to H$ при $n\to \infty .$ Определим для всех $r_i$
       Положим $\Gamma =\bigcup\limits_{i=1}^{\infty } {K_i}.$
 
 Рассмотрим $F$ - множество всех непрерывных функций $f,$
-определенных на $R\times \Gamma,$ со значениями в $R^p.$
+определенных на $R \times \Gamma,$ со значениями в $R^p.$
 Через $f^{\tau }$ обозначим сдвиг функции $f,$ $f^{\tau }(t,\varphi )=f(\tau +t,\varphi ).$
 Для $f\in F$ семейство сдвигов $F_0=\{f^{\tau }:\tau\in
 R\}$ будет являтся подмножеством $F.$
@@ -133,7 +133,7 @@ $K\subset\Gamma.$
 Связь между решениями уравнений  (\ref{1.1'})  и  (\ref{1.5'})
 определяется следующей теоремой:
 
-\begin{Th}\label{t-1.1} Пусть функция $f^*:\times\Gamma\to R^p$ есть предельная к $f$ в
+\begin{Th}\label{t-1.1} Пусть функция $f^*: R \times\Gamma\to R^p$ есть предельная к $f$ в
 $F$ относительно последовательности $t_n\to +\infty, $ а
 последовательности $\{\alpha _n\in \}$ и $\{\varphi _n\in F\}$
 таковы, что $\alpha _n\to\alpha\in ,$ $\varphi
@@ -212,8 +212,8 @@ $m=m(K)$ и $\delta =\delta (\varepsilon ,K)>0,$ такие, что имеют
 W(t,\varphi )\le m,\ \ \ \ \ |W(t_2,\varphi _2)-W(t_1,\varphi
 _1)|\le\varepsilon \label{3.4'}
 \end{equation}
-для всех $(t,\varphi )\in \times K$; $(t_1,\varphi _1),$
- $(t_2,\varphi _2)\in \times K : |t_2-t_1|\le \delta,$
+для всех $(t,\varphi )\in R \times K$; $(t_1,\varphi _1),$
+ $(t_2,\varphi _2)\in R \times K : |t_2-t_1|\le \delta,$
  $\|\varphi _2-\varphi _1\|\le\delta.$
 Как и в случае $f,$ при этих  условиях семейство сдвигов $\{
 W^{\tau }(t,\varphi )=W(t+\tau ,\varphi ), \tau\in \}$
@@ -263,12 +263,12 @@ $W$ для  одной  и  той  же  последовательности $t_n\to +\infty .$
 соответствующее  $(f^*,W^*).$
 \end{Def}
 
-\begin{Th}\label{t-4.1} Предположим, что:
+\begin{Th}\label{t-1.3} Предположим, что:
 
-   1) существует непрерывный функционал $V : \times C_H\to R,$  ограниченный
+   1) существует непрерывный функционал $V : R \times C_H\to R,$  ограниченный
 снизу на каждом компакте $K\subset C_H,$ $V(t,\varphi )\ge m(K)$
-для всех $(t,\varphi )\in \times K,$ и такой, что $\dot
-V(t,\varphi )\le -W(t,\varphi )\le 0$  для  всех $(t,\varphi )\in
+для всех $(t,\varphi )\in R \times K,$ и такой, что $\dot
+V(t,\varphi )\le -W(t,\varphi )\le 0$  для  всех $(t,\varphi )\in R
 \times C_H;$
 
    2) решение $x=x(t,\alpha ,\varphi )$ уравнения (\ref{1.1'})  ограничено,
@@ -291,13 +291,13 @@ M(\alpha )$ соответствующее решение $y(t,\alpha ,\psi )$ таково,
 )\not\in M(\beta ).$
 \end{Def}
 
-\begin{Th}\label{c-4.1} Если в условиях теоремы \ref{t-4.1} предположить также,
+\begin{Th}\label{t-1.5} Если в условиях теоремы \ref{t-1.3} предположить также,
 что существует последовательность $t_n\to +\infty,$ определяемые
 которой предельная пара $(g_0,U_0)$ и множество $V_{\infty
 }^{-1}(t,c)$ будут такими, что для каждого $c_0>c_1$  множество
 $\{ V_{\infty}^{-1}(t,c): c=c_0=\rm {const}>c_1\}\bigcap\{
 U_0(t,\varphi )=0\}$ не содержит решений $\dot x(t)=g_0(t,x_t),$
-то в дополнение к  выводу  теоремы \ref{t-4.1}  имеем  также
+то в дополнение к  выводу  теоремы \ref{t-1.3}  имеем  также
 соотношение (\ref{3.10'}).
 \end{Th}
 
@@ -327,10 +327,10 @@ U_0(t,\varphi )=0\}$ не содержит решений $\dot x(t)=g_0(t,x_t),$
 
 \begin{Th}\label{t-4.5} Предположим, что:
 
-   1) существует функционал $V: \times C_{H_1}\to $ $(0<H_1<H),$
+   1) существует функционал $V: R \times C_{H_1}\to $ $(0<H_1<H),$
    такой,  что $V(t,0)=0,$ $a_1(|\varphi (0)|)\le V(t,\varphi )\le a_2(\|\varphi \| ),$
  $\dot V^+(t,\varphi )\le -W(t,\varphi )\le 0$ для всех
-$(t,\varphi )\in \times C_{H_1};$
+$(t,\varphi )\in R \times C_{H_1};$
 
    2) для  каждой  предельной пары $(g,U)$  множество $\{ U(t,\varphi )=0\}$  не
 содержит решения уравнения $\dot x(t)=g(t,x_t),$  кроме нулевого.
