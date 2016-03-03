@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  3 MAR 2016 22:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  3 MAR 2016 22:40
 entering extended mode
 **./main.tex
 (main.tex
@@ -494,9 +494,6 @@ File: images/3chain.png Graphic file (type png)
 Package pdftex.def Info: images/3chain.png used on input line 24.
 (pdftex.def)             Requested size: 245.41626pt x 236.38254pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [11
 
 ]
@@ -511,7 +508,7 @@ Overfull \hbox (385.0033pt too wide) in paragraph at lines 42--48
 14.4 ) = []$ 
  []
 
-) [12 <./images/3chain.png>] (chapter3.tex
+[12 <./images/3chain.png>]) [13] (chapter3.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } III.
 
 Underfull \hbox (badness 1152) in paragraph at lines 7--8
@@ -536,11 +533,11 @@ l.167
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-[13
+[14
 
-] [14
+] [15
 
-] [15]
+] [16]
 Underfull \hbox (badness 10000) in paragraph at lines 254--259
 []\T2A/cmr/m/n/14.4 Андреев А.С., Пав-ли-ков С.В. Ис-сле-до-ва-ние устой-чи-во-
 сти
@@ -569,7 +566,7 @@ Underfull \hbox (badness 2027) in paragraph at lines 287--290
 да-че
  []
 
-[16] [17] [18] [19] [20]
+[17] [18] [19] [20] [21]
 Underfull \hbox (badness 1019) in paragraph at lines 493--497
 []\T2A/cmr/m/n/14.4 Павликов С.В. Ме-тод функ-ци-о-на-лов Ля-пу-но-ва в ис-сле-
 до-ва-нии
@@ -581,7 +578,7 @@ Underfull \hbox (badness 3907) in paragraph at lines 493--497
 
  []
 
-[21] [22] [23] [24]
+[22] [23] [24] [25]
 Underfull \hbox (badness 10000) in paragraph at lines 636--638
 []\T2A/cmr/m/n/14.4 Эльсгольц Л.Э. Устой-чи-вость ре-ше-ний дифференциально-
  []
@@ -598,19 +595,19 @@ Underfull \hbox (badness 2680) in paragraph at lines 663--665
 ial
  []
 
-[25]
+[26]
 Underfull \hbox (badness 1509) in paragraph at lines 693--696
 []\T2A/cmr/m/n/14.4 Burton T.A., Hatvani L. Stability theorems for nonautonomou
 s
  []
 
-[26]
+[27]
 Underfull \hbox (badness 2384) in paragraph at lines 733--736
 []\T2A/cmr/m/n/14.4 Haddock J., Terjeki J. Liapunov-Razumikhin functions and a
 n
  []
 
-[27]
+[28]
 Underfull \hbox (badness 1478) in paragraph at lines 783--786
 []\T2A/cmr/m/n/14.4 Hornor W.E. Invariance principles and asymptotic constancy 
 of
@@ -628,7 +625,7 @@ Underfull \hbox (badness 1448) in paragraph at lines 802--804
 l
  []
 
-[28]
+[29]
 Underfull \hbox (badness 4981) in paragraph at lines 820--823
 []\T2A/cmr/m/n/14.4 Murakami S. Perturbation theorems for functional differenti
 al
@@ -657,7 +654,7 @@ Underfull \hbox (badness 1163) in paragraph at lines 842--845
 s
  []
 
-[29] [30]
+[30] [31]
 
 ! LaTeX Error: \begin{equation} on input line 22 ended by \end{document}.
 
@@ -671,7 +668,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[31] (main.aux)
+[32] (main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -684,13 +681,13 @@ LaTeX Warning: There were multiply-defined labels.
 ### semi simple group (level 1) entered at line 22 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3789 strings out of 493634
- 46570 string characters out of 3135239
+ 3790 strings out of 493634
+ 46578 string characters out of 3135239
  111751 words of memory out of 3000000
- 7049 multiletter control sequences out of 15000+200000
+ 7050 multiletter control sequences out of 15000+200000
  17176 words of font info for 44 fonts, out of 3000000 for 9000
  1073 hyphenation exceptions out of 8191
- 34i,9n,27p,758b,343s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,9n,27p,758b,345s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh
 -t2a\dpi600\labx1728.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
 ur\lh\lh-t2a\dpi600\lati1440.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts
@@ -711,9 +708,9 @@ al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Admin
 mr7.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (30 pages, 307644 bytes).
+Output written on main.pdf (31 pages, 310699 bytes).
 PDF statistics:
- 527 PDF objects out of 1000 (max. 8388607)
+ 531 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
