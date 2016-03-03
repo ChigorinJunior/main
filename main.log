@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  28 FEB 2016 15:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  3 MAR 2016 22:18
 entering extended mode
 **./main.tex
 (main.tex
@@ -284,109 +284,25 @@ LaTeX Warning: Label `d-3.2' multiply defined.
 LaTeX Warning: Label `sec2.1' multiply defined.
 
 
-LaTeX Warning: Label `1.1'' multiply defined.
-
-
-LaTeX Warning: Label `AS1' multiply defined.
-
-
-LaTeX Warning: Label `1.2'' multiply defined.
-
-
-LaTeX Warning: Label `1.3'' multiply defined.
-
-
-LaTeX Warning: Label `AS2' multiply defined.
-
-
-LaTeX Warning: Label `1.4'' multiply defined.
-
-
-LaTeX Warning: Label `l-1.3' multiply defined.
-
-
-LaTeX Warning: Label `d-1.1' multiply defined.
-
-
-LaTeX Warning: Label `1.5'' multiply defined.
-
-
-LaTeX Warning: Label `AS3' multiply defined.
-
-
-LaTeX Warning: Label `1.6' multiply defined.
-
-
-LaTeX Warning: Label `t-1.1' multiply defined.
-
-
-LaTeX Warning: Label `t-1.2' multiply defined.
-
-
-LaTeX Warning: Label `d-3.2' multiply defined.
-
-
-LaTeX Warning: Label `3.2'' multiply defined.
-
-
-LaTeX Warning: Label `d-3.3' multiply defined.
-
-
-LaTeX Warning: Label `f32?' multiply defined.
-
-
-LaTeX Warning: Label `3.3'' multiply defined.
-
-
-LaTeX Warning: Label `3.4'' multiply defined.
-
-
-LaTeX Warning: Label `d-3.1' multiply defined.
-
-
-LaTeX Warning: Label `d-3.2' multiply defined.
-
-
-LaTeX Warning: Label `d-3.4' multiply defined.
-
-
-LaTeX Warning: Label `d-4.1' multiply defined.
-
-
-LaTeX Warning: Label `t-4.1' multiply defined.
-
-
-LaTeX Warning: Label `d-4.2' multiply defined.
-
-
-LaTeX Warning: Label `c-4.1' multiply defined.
-
-
-LaTeX Warning: Label `t-4.3' multiply defined.
-
-
-LaTeX Warning: Label `t-4.5' multiply defined.
-
-
 LaTeX Warning: Label `and97' multiply defined.
 
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
 
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
 ii"
@@ -528,7 +444,7 @@ LaTeX Warning: Reference `3.10'' on page 9 undefined on input line 301.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 294--302
-[]\T2A/cmr/m/it/14.4 Если в усло-ви-ях тео-ре-мы II.2.1[] пред-по-ло-жить
+[]\T2A/cmr/m/it/14.4 Если в усло-ви-ях тео-ре-мы I.1.3[] пред-по-ло-жить
  []
 
 
@@ -568,317 +484,236 @@ n/14.4 k\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ;$
 ) [10] (chapter2.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } II.
 
-LaTeX Warning: Command \cyrv invalid in math mode on input line 11.
+Overfull \hbox (499.99536pt too wide) detected at line 20
+[]
+ []
 
-Missing character: There is no в in font cmr10!
+<images/3chain.png, id=46, 245.41687pt x 236.38312pt>
+File: images/3chain.png Graphic file (type png)
+ <use images/3chain.png>
+Package pdftex.def Info: images/3chain.png used on input line 24.
+(pdftex.def)             Requested size: 245.41626pt x 236.38254pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [11
 
 ]
-Underfull \hbox (badness 1231) in paragraph at lines 67--76
-[]\T2A/cmr/m/it/14.4 Для лю-бо-го $\OML/cmm/m/it/14.4 K \OMS/cmsy/m/n/14.4  \O
-ML/cmm/m/it/14.4 C[]$ \T2A/cmr/m/it/14.4 ($\OML/cmm/m/it/14.4 K$ \T2A/cmr/m/it/
-14.4 - ком-пакт)
+Overfull \hbox (204.9175pt too wide) in paragraph at lines 33--39
+[]$\OML/cmm/m/it/14.4 A\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 q\OT1/cmr/m/n/14.4
+ ) = []$ 
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 67--76
-\T2A/cmr/m/it/14.4 функ-ция $\OML/cmm/m/it/14.4 f \OT1/cmr/m/n/14.4 = \OML/cmm/
-m/it/14.4 f\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; '\OT1/cmr/m/n/14.4 )$ \T2A/
-cmr/m/it/14.4 огра-ни-че-на и рав-но-мер-но непре-рыв-на по
+Overfull \hbox (385.0033pt too wide) in paragraph at lines 42--48
+[]$\OML/cmm/m/it/14.4 C\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 q; []\OT1/cmr/m/n/
+14.4 ) = []$ 
  []
 
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 105--108
-[]\T2A/cmr/m/it/14.4 Для лю-бо-го ком-пакт-но-го мно-же-ства
+) [12 <./images/3chain.png>] (chapter3.tex
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } III.
+
+Underfull \hbox (badness 1152) in paragraph at lines 7--8
+[]\T2A/cmr/m/n/14.4 Рассмотрим ма-те-ма-ти-че-скую мо-дель двух-звен-но-го ма-н
+и-пу-ля-то-ра.
  []
 
+)
+! Missing $ inserted.
+<inserted text> 
+                $
+l.167 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-LaTeX Warning: Reference `t1.2' on page 13 undefined on input line 126.
+! Display math should end with $$.
+<to be read again> 
+                   \par 
+l.167 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
 
+[13
 
-Underfull \hbox (badness 2409) in paragraph at lines 144--153
-[]\T2A/cmr/m/it/14.4 Пусть ре-ше-ние (1.1[]) $\OML/cmm/m/it/14.4 x \OT1/cmr/m/n
-/14.4 = \OML/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; ; '\OT1/c
-mr/m/n/14.4 )$ \T2A/cmr/m/it/14.4 ог-ра-ни-че-но,
- []
+] [14
 
-[13]
-Underfull \hbox (badness 1292) in paragraph at lines 169--176
-[]\T2A/cmr/m/it/14.4 Предельное урав-не-ние оп-ре-де-ля-ет-ся в под-об-ла-сти
- []
-
-
-Underfull \hbox (badness 4569) in paragraph at lines 178--181
-[]\T2A/cmr/m/n/14.4 Допустим, что пра-вая часть урав-не-ния (1.1[]) име-ет зна-
-че-ние
- []
-
-
-LaTeX Warning: Reference `sec1.2' on page 14 undefined on input line 186.
-
-
-Underfull \hbox (badness 1033) in paragraph at lines 182--188
-\T2A/cmr/m/n/14.4 нов-ным ис-поль-зу-е-мым свой-ством при этом опре-де-ле-нии и
- усло-вии
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--210
-[]\T2A/cmr/m/it/14.4 Будем го-во-рить, что отоб-ра-же-ние
- []
-
-
-Underfull \hbox (badness 3407) in paragraph at lines 201--210
-\T2A/cmr/m/it/14.4 и по-сле-до-ва-тель-ность непре-рыв-ных отоб-ра-же-ний $\OML
-/cmm/m/it/14.4 u[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )\OM
-L/cmm/m/it/14.4 ;$ \T2A/cmr/m/it/14.4 та-кие,
- []
-
-[14]
-Underfull \hbox (badness 2213) in paragraph at lines 238--241
-[]\T2A/cmr/m/it/14.4 Функция $\OML/cmm/m/it/14.4 U \OMS/cmsy/m/n/14.4  \OML/cm
-m/m/it/14.4 F[]$ \T2A/cmr/m/it/14.4 есть пре-дель-ная к $\OML/cmm/m/it/14.4 W;$
-
- []
-
-
-Underfull \hbox (badness 2035) in paragraph at lines 238--241
-\T2A/cmr/m/it/14.4 ес-ли су-ще-ству-ет $\OML/cmm/m/it/14.4 t[] \OMS/cmsy/m/n/14
-.4 ! \OT1/cmr/m/n/14.4 +\OMS/cmsy/m/n/14.4 1\OML/cmm/m/it/14.4 ;$ \T2A/cmr/m/it
-/14.4 та-кая, что по-сле-до-ва-тель-ность
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--250
-[]\T2A/cmr/m/it/14.4 Будем го-во-рить, что отоб-ра-же-ние
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 292--295
-[]\T2A/cmr/m/it/14.4 2) ре-ше-ние $\OML/cmm/m/it/14.4 x \OT1/cmr/m/n/14.4 = \OM
-L/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; ; '\OT1/cmr/m/n/14.4
- )$ \T2A/cmr/m/it/14.4 урав-не-ния (1.1[]) ог-ра-ни-че-но,
- []
-
-
-Underfull \hbox (badness 1721) in paragraph at lines 296--303
-\T2A/cmr/m/it/14.4 и со-от-вет-ству-ю-щее мно-жест-во $\OML/cmm/m/it/14.4 V[]\O
-T1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; c\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ;
-$ \T2A/cmr/m/it/14.4 ре-ше-ние $\OML/cmm/m/it/14.4 y \OT1/cmr/m/n/14.4 = \OML/c
-mm/m/it/14.4 y\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )\OML/cm
-m/m/it/14.4 ;$
- []
-
-
-LaTeX Warning: Reference `c-3.1' on page 16 undefined on input line 312.
-
-
-LaTeX Warning: Reference `3.10'' on page 16 undefined on input line 321.
-
-
-Underfull \hbox (badness 4429) in paragraph at lines 314--322
-[]\T2A/cmr/m/it/14.4 Если в усло-ви-ях тео-ре-мы II.2.1[] пред-по-ло-жить
- []
-
-
-Underfull \hbox (badness 2213) in paragraph at lines 314--322
-\T2A/cmr/m/it/14.4 так-же, что су-ще-ству-ет по-сле-до-ва-тель-ность $\OML/cmm/
-m/it/14.4 t[] \OMS/cmsy/m/n/14.4 ! \OT1/cmr/m/n/14.4 +\OMS/cmsy/m/n/14.4 1\OML/
-cmm/m/it/14.4 ;$ \T2A/cmr/m/it/14.4 оп-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 314--322
-\T2A/cmr/m/it/14.4 ре-де-ляе-мые ко-то-рой пре-дель-ная па-ра $\OT1/cmr/m/n/14.
-4 (\OML/cmm/m/it/14.4 g[]; U[]\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/it/14.4 и мно-жес
-т-во
- []
-
-[16]
-
-LaTeX Warning: Reference `t-3.3' on page 17 undefined on input line 328.
-
-
-LaTeX Warning: Reference `t-3.4' on page 17 undefined on input line 328.
-
-
-LaTeX Warning: Reference `t-4.2' on page 17 undefined on input line 333.
-
-
-LaTeX Warning: Reference `r332' on page 17 undefined on input line 346.
-
-
-LaTeX Warning: Reference `t-4.4' on page 17 undefined on input line 348.
-
-
-Underfull \hbox (badness 2772) in paragraph at lines 360--364
-\T2A/cmr/m/it/14.4 та-кой, что $\OML/cmm/m/it/14.4 V\OT1/cmr/m/n/14.4 (\OML/cmm
-/m/it/14.4 t; \OT1/cmr/m/n/14.4 0) = 0\OML/cmm/m/it/14.4 ;$ $a[]\OT1/cmr/m/n/14
-.4 (\OMS/cmsy/m/n/14.4 j\OML/cmm/m/it/14.4 '\OT1/cmr/m/n/14.4 (0)\OMS/cmsy/m/n/
-14.4 j\OT1/cmr/m/n/14.4 ) \U/msa/m/n/14.4 6 \OML/cmm/m/it/14.4 V\OT1/cmr/m/n/14
-.4 (\OML/cmm/m/it/14.4 t; '\OT1/cmr/m/n/14.4 ) \U/msa/m/n/14.4 6 \OML/cmm/m/it/
-14.4 a[]\OT1/cmr/m/n/14.4 (\OMS/cmsy/m/n/14.4 k\OML/cmm/m/it/14.4 '\OMS/cmsy/m/
-n/14.4 k\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ;$
- []
-
-) [17] [18
-
-] [19]
-Underfull \hbox (badness 10000) in paragraph at lines 246--251
+] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 254--259
 []\T2A/cmr/m/n/14.4 Андреев А.С., Пав-ли-ков С.В. Ис-сле-до-ва-ние устой-чи-во-
 сти
  []
 
 
-Underfull \hbox (badness 6204) in paragraph at lines 246--251
+Underfull \hbox (badness 6204) in paragraph at lines 254--259
 \T2A/cmr/m/n/14.4 функционально-дифференциальных урав-не-ний на ос-но-ве зна-
  []
 
 
-Underfull \hbox (badness 5133) in paragraph at lines 270--274
+Underfull \hbox (badness 5133) in paragraph at lines 278--282
 []\T2A/cmr/m/n/14.4 Андреев А.С., Пав-ли-ков С.В. Незна-ко-опре-де-лен-ные функ
 -ци-
  []
 
 
-Underfull \hbox (badness 5578) in paragraph at lines 270--274
+Underfull \hbox (badness 5578) in paragraph at lines 278--282
 \T2A/cmr/m/n/14.4 о-на-лы Ля-пу-но-ва в за-да-че об устой-чи-во-сти функциональ
 но-
  []
 
 
-Underfull \hbox (badness 2027) in paragraph at lines 279--282
+Underfull \hbox (badness 2027) in paragraph at lines 287--290
 []\T2A/cmr/m/n/14.4 Андреев А.С., Ху-са-нов Д.Х. Пре-дель-ные урав-не-ния в за-
 да-че
  []
 
-[20] [21] [22] [23] [24]
-Underfull \hbox (badness 1019) in paragraph at lines 485--489
+[16] [17] [18] [19] [20]
+Underfull \hbox (badness 1019) in paragraph at lines 493--497
 []\T2A/cmr/m/n/14.4 Павликов С.В. Ме-тод функ-ци-о-на-лов Ля-пу-но-ва в ис-сле-
 до-ва-нии
  []
 
 
-Underfull \hbox (badness 3907) in paragraph at lines 485--489
+Underfull \hbox (badness 3907) in paragraph at lines 493--497
 \T2A/cmr/m/n/14.4 устой-чи-во-сти функционально-дифференциальных урав-не-ний //
 
  []
 
-[25] [26] [27] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 628--630
+[21] [22] [23] [24]
+Underfull \hbox (badness 10000) in paragraph at lines 636--638
 []\T2A/cmr/m/n/14.4 Эльсгольц Л.Э. Устой-чи-вость ре-ше-ний дифференциально-
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 651--654
+Underfull \hbox (badness 1365) in paragraph at lines 659--662
 []\T2A/cmr/m/n/14.4 Andreev A.S., Sedova N.O. On the stability of nonautonomous
 
  []
 
 
-Underfull \hbox (badness 2680) in paragraph at lines 655--657
+Underfull \hbox (badness 2680) in paragraph at lines 663--665
 []\T2A/cmr/m/n/14.4 Andreev A., Zappala'G. On stability for perturbed different
 ial
  []
 
-[29]
-Underfull \hbox (badness 1509) in paragraph at lines 685--688
+[25]
+Underfull \hbox (badness 1509) in paragraph at lines 693--696
 []\T2A/cmr/m/n/14.4 Burton T.A., Hatvani L. Stability theorems for nonautonomou
 s
  []
 
-[30]
-Underfull \hbox (badness 2384) in paragraph at lines 725--728
+[26]
+Underfull \hbox (badness 2384) in paragraph at lines 733--736
 []\T2A/cmr/m/n/14.4 Haddock J., Terjeki J. Liapunov-Razumikhin functions and a
 n
  []
 
-[31]
-Underfull \hbox (badness 1478) in paragraph at lines 775--778
+[27]
+Underfull \hbox (badness 1478) in paragraph at lines 783--786
 []\T2A/cmr/m/n/14.4 Hornor W.E. Invariance principles and asymptotic constancy 
 of
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 787--790
+Underfull \hbox (badness 1028) in paragraph at lines 795--798
 []\T2A/cmr/m/n/14.4 Jankovic M. Control Lyapunov-Razumikhin functions and robus
 t
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 794--796
+Underfull \hbox (badness 1448) in paragraph at lines 802--804
 []\T2A/cmr/m/n/14.4 Kato J. On Liapunov--Razumikhin type theorems for functiona
 l
  []
 
-[32]
-Underfull \hbox (badness 4981) in paragraph at lines 812--815
+[28]
+Underfull \hbox (badness 4981) in paragraph at lines 820--823
 []\T2A/cmr/m/n/14.4 Murakami S. Perturbation theorems for functional differenti
 al
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 819--822
+Underfull \hbox (badness 1264) in paragraph at lines 827--830
 []\T2A/cmr/m/n/14.4 Sedova N. On employment of semi-definite function in stabil
 ity
  []
 
 
-Underfull \hbox (badness 2591) in paragraph at lines 819--822
+Underfull \hbox (badness 2591) in paragraph at lines 827--830
 \T2A/cmr/m/n/14.4 of delayed equations // Journal of Mathematical Analysis and
  []
 
 
-Underfull \hbox (badness 2277) in paragraph at lines 831--833
+Underfull \hbox (badness 2277) in paragraph at lines 839--841
 []\T2A/cmr/m/n/14.4 Sell G.R. Nonautonomous differential equations and topologi
 cal
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 834--837
+Underfull \hbox (badness 1163) in paragraph at lines 842--845
 []\T2A/cmr/m/n/14.4 Taniguchi T. Asymptotic behavior theorems for non-autonomou
 s
  []
 
-[33] [34] [35] (main.aux)
+[29] [30]
+
+! LaTeX Error: \begin{equation} on input line 22 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.890 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[31] (main.aux)
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 22 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 3786 strings out of 493634
- 46473 string characters out of 3135239
- 111362 words of memory out of 3000000
- 7052 multiletter control sequences out of 15000+200000
+ 3789 strings out of 493634
+ 46570 string characters out of 3135239
+ 111751 words of memory out of 3000000
+ 7049 multiletter control sequences out of 15000+200000
  17176 words of font info for 44 fonts, out of 3000000 for 9000
  1073 hyphenation exceptions out of 8191
- 34i,8n,27p,653b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\la
-bx1728.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\d
-pi600\lati1440.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\
-lh-t2a\dpi600\labx1095.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\lj
-four\lh\lh-t2a\dpi600\larm1440.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fon
-ts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk> <C:\Users\Admin\AppData\Local\MiKTeX
-\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk> <C:\Users\Admin\AppData\Loca
-l\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx2074.pk> <C:\Users\Admin\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx2488.pk><C:/Users/Adm
-in/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-<C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmmi10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmmi12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Admin/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Admin/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Admin/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Us
-ers/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/symbols/msam10.pfb>
-Output written on main.pdf (34 pages, 323759 bytes).
+ 34i,9n,27p,758b,343s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh
+-t2a\dpi600\labx1728.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
+ur\lh\lh-t2a\dpi600\lati1440.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\lh\lh-t2a\dpi600\labx1095.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2
+.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk> <C:\Users\Admin\AppData\Local\
+MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk> <C:\Users\Admin\AppDat
+a\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk> <C:\Users\Admi
+n\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx2074.pk> <C:\Us
+ers\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx2488.pk
+><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmex10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmmi10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Admin/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Admin/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Admin
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr7.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/symbols/msam10.pfb>
+Output written on main.pdf (30 pages, 307644 bytes).
 PDF statistics:
- 544 PDF objects out of 1000 (max. 8388607)
+ 527 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
