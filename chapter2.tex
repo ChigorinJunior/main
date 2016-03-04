@@ -32,19 +32,35 @@
          
         $A(q) =
         \begin{pmatrix}
-        J_{01} + m_2 r_2^2 \sin^2 q_2 + m_{30} (l_2 \sin q_2 + r_3 \sin q_3)^2 && 0 && 0  \\
-        0  && m_2 r_2^2 + m_3 l_2^2 && \frac12 m_{30} l_2 r_3 \cos(q_2 - q_3) \\
-        0 && \frac12 m_{30} l_2 r_3 \cos(q_2 - q_3) && m_{30} r_3^2 \\
+        a_{11} && 0 && 0  \\
+        0  && a_{22} && a_{23} \\
+        0 && a_{32} &&  a_{33}\\
         \end{pmatrix}$
         
         \vspace{5mm}
         
+        Ёлеменыт матрицы инерции $A(q):$
+        
+        $$a_{11} = J_{01} + m_2 r_2^2 \sin^2 q_2 + m_{30} (l_2 \sin q_2 + r_3 \sin q_3)^2$$
+        $$a_{22} = m_2 r_2^2 + m_3 l_2^2$$
+        $$a_{23} = \frac12 m_{30} l_2 r_3 \cos(q_2 - q_3)$$
+        $$a_{32} = a_{23}$$
+        $$a_{33} = m_{30} r_3^2$$
+        
         $C(q, \dot q)= 
         \begin{pmatrix}
-        2 (m_2 r_2^2 \sin q_2 \cos q_2 + m_{30} (l_2 \sin q_2 + r_3 \sin q_3) l_2 \cos q_2) \dot q_2 && 0 && 2 m_{30} (l_2 \sin q_2 + r_3 \sin q_3) r_3 \cos q_3 \dot q_3 \\
-        - (m_{30} (l_2 \sin q_2 + r_3 \sin q_3) l_2 + m_2 r_2^2 \sin q_2) \cos q_2 \dot q_1 && 0 && 0 \\
-        - m_{30} (l_2 \sin q_2 + r_3 \sin q_3) r_3 \cos q_3 \dot q_1 && - \frac12 m_{30} l_2 r_3 \sin (q_2 - q_3) \dot q_2 && 0\\
+        c_{11} && 0 && c_{13} \\
+        c_{21} && 0 && 0 \\
+        c_{31} && c_{32} && 0\\
         \end{pmatrix}$
+        
+        Ёлементы матрицы $C(q, \dot q):$
+        
+        $$c_{11} = 2 (m_2 r_2^2 \sin q_2 \cos q_2 + m_{30} (l_2 \sin q_2 + r_3 \sin q_3) l_2 \cos q_2) \dot q_2$$
+        $$c_{13} = 2 m_{30} (l_2 \sin q_2 + r_3 \sin q_3) r_3 \cos q_3 \dot q_3$$
+        $$c_{21} = - (m_{30} (l_2 \sin q_2 + r_3 \sin q_3) l_2 + m_2 r_2^2 \sin q_2) \cos q_2 \dot q_1$$
+        $$c_{31} = - m_{30} (l_2 \sin q_2 + r_3 \sin q_3) r_3 \cos q_3 \dot q_1$$
+        $$c_{32} = - \frac12 m_{30} l_2 r_3 \sin (q_2 - q_3) \dot q_2$$
         
         \vspace{5mm}
         
