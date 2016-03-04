@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  4 MAR 2016 22:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  4 MAR 2016 23:31
 entering extended mode
 **./main.tex
 (main.tex
@@ -439,39 +439,79 @@ mm/m/it/14.4 y\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )\OML/cm
 m/m/it/14.4 ;$
  []
 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.301 соотношение \lim
+                      \limits_{n\to \infty}V(t, x_t(\alpha, \varphi_n)).
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-LaTeX Warning: Reference `3.10'' on page 9 undefined on input line 301.
+
+! LaTeX Error: Command \end{Th} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.302 \end{Th}
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--302
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.302 \end{Th}
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.302 \end{Th}
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.302 \end{Th}
+              
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--303
 []\T2A/cmr/m/it/14.4 Если в усло-ви-ях тео-ре-мы I.1.3[] пред-по-ло-жить
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 294--302
+Underfull \hbox (badness 2213) in paragraph at lines 294--303
 \T2A/cmr/m/it/14.4 так-же, что су-ще-ству-ет по-сле-до-ва-тель-ность $\OML/cmm/
 m/it/14.4 t[] \OMS/cmsy/m/n/14.4 ! \OT1/cmr/m/n/14.4 +\OMS/cmsy/m/n/14.4 1\OML/
 cmm/m/it/14.4 ;$ \T2A/cmr/m/it/14.4 оп-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--302
+Underfull \hbox (badness 10000) in paragraph at lines 294--303
 \T2A/cmr/m/it/14.4 ре-де-ляе-мые ко-то-рой пре-дель-ная па-ра $\OT1/cmr/m/n/14.
 4 (\OML/cmm/m/it/14.4 g[]; U[]\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/it/14.4 и мно-жес
 т-во
  []
-
-
-LaTeX Warning: Reference `c-4.1' on page 9 undefined on input line 307.
-
-
-LaTeX Warning: Reference `t-3.3' on page 9 undefined on input line 308.
-
-
-LaTeX Warning: Reference `t-3.4' on page 9 undefined on input line 308.
-
-
-LaTeX Warning: Reference `t-4.2' on page 9 undefined on input line 313.
 
 [9]
 Underfull \hbox (badness 2772) in paragraph at lines 330--334
@@ -661,9 +701,6 @@ or  <return>  to continue without it.
 
 [33] (main.aux)
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  )
@@ -672,10 +709,10 @@ LaTeX Warning: There were multiply-defined labels.
 ### semi simple group (level 1) entered at line 22 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3791 strings out of 493634
- 46585 string characters out of 3135239
+ 3786 strings out of 493634
+ 46550 string characters out of 3135239
  110763 words of memory out of 3000000
- 7051 multiletter control sequences out of 15000+200000
+ 7046 multiletter control sequences out of 15000+200000
  17176 words of font info for 44 fonts, out of 3000000 for 9000
  1073 hyphenation exceptions out of 8191
  34i,8n,27p,757b,343s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -699,9 +736,9 @@ al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Admin
 mr7.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (32 pages, 311763 bytes).
+Output written on main.pdf (32 pages, 311254 bytes).
 PDF statistics:
- 534 PDF objects out of 1000 (max. 8388607)
+ 532 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
