@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  8 MAR 2016 20:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  25 APR 2016 23:02
 entering extended mode
 **./main.tex
 (main.tex
@@ -6,8 +6,8 @@ LaTeX2e <2015/10/01> patch level 2
 Babel <3.9n> and hyphenation patterns for 69 languages loaded.
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo"
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -276,7 +276,12 @@ Package babel Info: Making " an active character on input line 111.
 \c@prop=\count138
 \c@example=\count139
 \c@statements=\count140
- (main.aux
+
+
+LaTeX Warning: Unused global option(s):
+    [14pt].
+
+(main.aux
 
 LaTeX Warning: Label `d-3.2' multiply defined.
 
@@ -346,103 +351,61 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 
 ] (chapter1.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } I.
-
-LaTeX Warning: Command \cyrv invalid in math mode on input line 21.
-
-Missing character: There is no в in font cmr10!
 [4
 
 ]
-Underfull \hbox (badness 1231) in paragraph at lines 76--84
-[]\T2A/cmr/m/it/14.4 Для лю-бо-го $\OML/cmm/m/it/14.4 K \OMS/cmsy/m/n/14.4  \O
-ML/cmm/m/it/14.4 C[]$ \T2A/cmr/m/it/14.4 ($\OML/cmm/m/it/14.4 K$ \T2A/cmr/m/it/
-14.4 - ком-пакт)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+Underfull \hbox (badness 1609) in paragraph at lines 27--33
+\T2A/cmr/m/n/12 с нор-мой $\OMS/cmsy/m/n/12 k\OML/cmm/m/it/12 '\OMS/cmsy/m/n/12
+ k \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 max\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 j\OM
+L/cmm/m/it/12 '\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 )\OMS/cmsy/m/
+n/12 j\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 h \U/msa/m/n/12 6 \
+OML/cmm/m/it/12 s \U/msa/m/n/12 6 \OT1/cmr/m/n/12 0)\OML/cmm/m/it/12 :$ \T2A/cm
+r/m/n/12 Для неп-ре-рыв-ной функ-ции
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 76--84
-\T2A/cmr/m/it/14.4 т.е. $\OMS/cmsy/m/n/14.4 8\OML/cmm/m/it/14.4 K \OMS/cmsy/m/n
-/14.4  \OML/cmm/m/it/14.4 C[]$ \T2A/cmr/m/it/14.4 и для про-из-воль-но-го ма-л
-о-го $\OML/cmm/m/it/14.4 " > \OT1/cmr/m/n/14.4 0$ \T2A/cmr/m/it/14.4 най-дет-
- []
+LaTeX Warning: Command \cyrv invalid in math mode on input line 39.
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 113--116
-[]\T2A/cmr/m/it/14.4 Для лю-бо-го ком-пакт-но-го мно-же-ства
- []
-
-
-Underfull \hbox (badness 2409) in paragraph at lines 152--161
-[]\T2A/cmr/m/it/14.4 Пусть ре-ше-ние (1.1[]) $\OML/cmm/m/it/14.4 x \OT1/cmr/m/n
-/14.4 = \OML/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; ; '\OT1/c
-mr/m/n/14.4 )$ \T2A/cmr/m/it/14.4 ог-ра-ни-че-но,
- []
-
+Missing character: There is no в in font cmr8!
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 168--171
-[]\T2A/cmr/m/n/14.4 Верхней пра-во-сто-рон-ней про-из-вод-ной от $\OML/cmm/m/it
-/14.4 V$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 168--171
-\T2A/cmr/m/n/14.4 вдоль ре-ше-ния $\OML/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4 (\OML/
-cmm/m/it/14.4 t; ; '\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/n/14.4 на-зы-ва-ет-ся зна-
-че-ние
- []
-
-
-Underfull \hbox (badness 1158) in paragraph at lines 172--175
-\T2A/cmr/m/n/14.4 вии $[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; '\OT1/cmr/m/n
-/14.4 ) \U/msa/m/n/14.4 6 \OMS/cmsy/m/n/14.4  \OML/cmm/m/it/14.4 W\OT1/cmr/m/n/
-14.4 (\OML/cmm/m/it/14.4 t; '\OT1/cmr/m/n/14.4 ) \U/msa/m/n/14.4 6 \OT1/cmr/m/n
-/14.4 0$ \T2A/cmr/m/n/14.4 яв-ля-ет-ся невоз-рас-та-ние функ-ции
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--197
-[]\T2A/cmr/m/it/14.4 Будем го-во-рить, что отоб-ра-же-ние
- []
-
-
-Underfull \hbox (badness 3407) in paragraph at lines 188--197
-\T2A/cmr/m/it/14.4 и по-сле-до-ва-тель-ность непре-рыв-ных отоб-ра-же-ний $\OML
-/cmm/m/it/14.4 u[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )\OM
-L/cmm/m/it/14.4 ;$ \T2A/cmr/m/it/14.4 та-кие,
+Underfull \hbox (badness 2564) in paragraph at lines 94--102
+[]\T2A/cmr/m/it/12 Для лю-бо-го $\OML/cmm/m/it/12 K \OMS/cmsy/m/n/12  \OML/cmm
+/m/it/12 C[]$ \T2A/cmr/m/it/12 ($\OML/cmm/m/it/12 K$ \T2A/cmr/m/it/12 - ком-пак
+т) функ-ция
  []
 
 [7]
-Underfull \hbox (badness 2035) in paragraph at lines 225--228
-\T2A/cmr/m/it/14.4 ес-ли су-ще-ству-ет $\OML/cmm/m/it/14.4 t[] \OMS/cmsy/m/n/14
-.4 ! \OT1/cmr/m/n/14.4 +\OMS/cmsy/m/n/14.4 1\OML/cmm/m/it/14.4 ;$ \T2A/cmr/m/it
-/14.4 та-кая, что по-сле-до-ва-тель-ность
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 230--237
-[]\T2A/cmr/m/it/14.4 Будем го-во-рить, что отоб-ра-же-ние
+Underfull \hbox (badness 10000) in paragraph at lines 190--193
+[]\T2A/cmr/m/n/12 Основным ис-поль-зу-е-мым свой-ством при этом опре-де-ле-нии 
+и усло-вии
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 274--277
-[]\T2A/cmr/m/it/14.4 2) ре-ше-ние $\OML/cmm/m/it/14.4 x \OT1/cmr/m/n/14.4 = \OM
-L/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; ; '\OT1/cmr/m/n/14.4
- )$ \T2A/cmr/m/it/14.4 урав-не-ния (1.1[]) ог-ра-ни-че-но,
+Underfull \hbox (badness 1033) in paragraph at lines 232--241
+\T2A/cmr/m/n/12 для всех $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t; '\OT1/cmr/m/n/12
+ ) \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 R \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 K$
+\T2A/cmr/m/n/12 ; $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t[]; '[]\OT1/cmr/m/n/12 )\
+OML/cmm/m/it/12 ;$ $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t[]; '[]\OT1/cmr/m/n/12 )
+ \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 R \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 K \O
+T1/cmr/m/n/12 : \OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 t[] \OMS/cmsy/m/n/12   \OML/
+cmm/m/it/12 t[]\OMS/cmsy/m/n/12 j \U/msa/m/n/12 6 \OML/cmm/m/it/12 ;$
  []
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 278--285
-\T2A/cmr/m/it/14.4 и со-от-вет-ству-ю-щее мно-жест-во $\OML/cmm/m/it/14.4 V[]\O
-T1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; c\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ;
-$ \T2A/cmr/m/it/14.4 ре-ше-ние $\OML/cmm/m/it/14.4 y \OT1/cmr/m/n/14.4 = \OML/c
-mm/m/it/14.4 y\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )\OML/cm
-m/m/it/14.4 ;$
+Underfull \hbox (badness 2035) in paragraph at lines 248--255
+[]\T2A/cmr/m/it/12 Будем го-во-рить, что отоб-ра-же-ние $\OML/cmm/m/it/12 u \OT
+1/cmr/m/n/12 : (\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ! \OML/
+cmm/m/it/12 C[]$
  []
 
+[9]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.301 соотношение \lim
+l.319 соотношение \lim
                       \limits_{n\to \infty}V(t, x_t(\alpha, \varphi_n)).
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -454,7 +417,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.302 \end{Th}
+l.320 \end{Th}
               
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -466,7 +429,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.302 \end{Th}
+l.320 \end{Th}
               
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -478,7 +441,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.302 \end{Th}
+l.320 \end{Th}
               
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -486,7 +449,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.302 \end{Th}
+l.320 \end{Th}
               
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -494,128 +457,37 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--303
-[]\T2A/cmr/m/it/14.4 Если в усло-ви-ях тео-ре-мы I.1.3[] пред-по-ло-жить
- []
-
-
-Underfull \hbox (badness 2213) in paragraph at lines 294--303
-\T2A/cmr/m/it/14.4 так-же, что су-ще-ству-ет по-сле-до-ва-тель-ность $\OML/cmm/
-m/it/14.4 t[] \OMS/cmsy/m/n/14.4 ! \OT1/cmr/m/n/14.4 +\OMS/cmsy/m/n/14.4 1\OML/
-cmm/m/it/14.4 ;$ \T2A/cmr/m/it/14.4 оп-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--303
-\T2A/cmr/m/it/14.4 ре-де-ляе-мые ко-то-рой пре-дель-ная па-ра $\OT1/cmr/m/n/14.
-4 (\OML/cmm/m/it/14.4 g[]; U[]\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/it/14.4 и мно-жес
-т-во
- []
-
-[9]
-Underfull \hbox (badness 2772) in paragraph at lines 330--334
-\T2A/cmr/m/it/14.4 та-кой, что $\OML/cmm/m/it/14.4 V\OT1/cmr/m/n/14.4 (\OML/cmm
-/m/it/14.4 t; \OT1/cmr/m/n/14.4 0) = 0\OML/cmm/m/it/14.4 ;$ $a[]\OT1/cmr/m/n/14
-.4 (\OMS/cmsy/m/n/14.4 j\OML/cmm/m/it/14.4 '\OT1/cmr/m/n/14.4 (0)\OMS/cmsy/m/n/
-14.4 j\OT1/cmr/m/n/14.4 ) \U/msa/m/n/14.4 6 \OML/cmm/m/it/14.4 V\OT1/cmr/m/n/14
-.4 (\OML/cmm/m/it/14.4 t; '\OT1/cmr/m/n/14.4 ) \U/msa/m/n/14.4 6 \OML/cmm/m/it/
-14.4 a[]\OT1/cmr/m/n/14.4 (\OMS/cmsy/m/n/14.4 k\OML/cmm/m/it/14.4 '\OMS/cmsy/m/
-n/14.4 k\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ;$
- []
-
 ) [10] (chapter2.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } II.
 
-Underfull \hbox (badness 1152) in paragraph at lines 7--8
-[]\T2A/cmr/m/n/14.4 Рассмотрим ма-те-ма-ти-че-скую мо-дель двух-звен-но-го ма-н
-и-пу-ля-то-ра.
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+[]\T2A/cmr/m/n/12 где $\OML/cmm/m/it/12 M[]$ \T2A/cmr/m/n/12 --- мо-мент, со-зд
+а-ва-е-мый си-лой тя-же-сти в $\OML/cmm/m/it/12 i$\T2A/cmr/m/n/12 -м шар-ни-ре,
+
+ []
+
+
+Overfull \hbox (21.0522pt too wide) in paragraph at lines 39--40
+\T2A/cmr/m/n/12 че-ской си-сте-мы и $\OML/cmm/m/it/12 X \OT1/cmr/m/n/12 = []$
  []
 
 [11
 
 ]
-Overfull \hbox (11.03856pt too wide) detected at line 37
-[]
+Overfull \hbox (23.22826pt too wide) in paragraph at lines 50--55
+[]$\OML/cmm/m/it/12 A[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t; x\OT1/cmr/m/n/12 ) 
+= []$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-[]\T2A/cmr/m/n/14.4 Пусть $\OML/cmm/m/it/14.4 q \OT1/cmr/m/n/14.4 = \OML/cmm/m/
-it/14.4 q\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 q[]; q[]\OT1/cmr/m/n/14.4 )[]$ \
-T2A/cmr/m/n/14.4 -- век-тор обоб-щен-ных ко-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-\T2A/cmr/m/n/14.4 ор-ди-нат рас-смат-ри-ва-е-мой ме-ха-ни-че-ской си-сте-мы и
- []
-
-
-Underfull \hbox (badness 1831) in paragraph at lines 39--40
-\T2A/cmr/m/n/14.4 есть за-дан-ное мно-жест-во про-грамм-ных дви-же-ний ма-ни-пу
--ля-то-ра в
- []
-
-
-Overfull \hbox (108.11812pt too wide) in paragraph at lines 50--55
-[]$\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x\OT1/cmr/m/n
-/14.4 ) = []$ 
- []
-
-
-Overfull \hbox (7.56448pt too wide) detected at line 56
-\OML/cmm/m/it/14.4 C[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x\OT1/cmr/m/n/14
-.4 ) = (\OML/cmm/m/it/14.4 C[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x\OT1/cm
-r/m/n/14.4 )\OML/cmm/m/it/14.4 ; C[]\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ; Q[]
-\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x\OT1/cmr/m/n/14.4 ) = \OML/cmm/m/it/1
-4.4 F\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x\OT1/cmr/m/n/14.4 )\OML/cmm/m/it
-/14.4 p\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/
-14.4 ; Q[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x; []\OT1/cmr/m/n/14.4 ) = \
-OML/cmm/m/it/14.4 D\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x\OT1/cmr/m/n/14.4 
-)[]
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.91 
-     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
-[]\T2A/cmr/m/n/14.4 Рассмотрим за-да-чу по-стро-е-ния управ-ля-ю-ще-го воз-дей-
-ствия
- []
-
-
-Underfull \hbox (badness 5203) in paragraph at lines 100--101
-\T2A/cmr/m/n/14.4 но асимп-то-ти-чес-ки ус-той-чи-во, или, ины-ми сло-ва-ми, уп
-рав-ле-ние
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
-[]\T2A/cmr/m/n/14.4 обеспечивало бы ста-би-ли-за-цию про-грамм-но-го дви-же-ния
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--107
-[]\T2A/cmr/m/n/14.4 Рассмотрим ре-ше-ние за-да-чи ста-би-ли-за-ции в об-ла-сти
+Underfull \hbox (badness 10000) in paragraph at lines 102--105
+[]\T2A/cmr/m/n/12 Рассмотрим ре-ше-ние за-да-чи ста-би-ли-за-ции в об-ла-сти
  []
 
 ! Display math should end with $$.
 <to be read again> 
                    U
-l.109 	$U
+l.107 	$U
          ^{(1)}(x, \dot x) = B(\dot x + p(x))$ \label{2.3}
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -623,7 +495,7 @@ So I shall assume that you typed `$$' both times.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.109 	$U^
+l.107 	$U^
           {(1)}(x, \dot x) = B(\dot x + p(x))$ \label{2.3}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -635,7 +507,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 	\end{equation*}
+l.108 	\end{equation*}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -644,7 +516,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.110 	\end{equation*}
+l.108 	\end{equation*}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -655,7 +527,7 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.110 	\end{equation*}
+l.108 	\end{equation*}
                       
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -663,7 +535,7 @@ So I shall assume that you typed `$$' both times.
 ! Missing { inserted.
 <to be read again> 
                    ^
-l.113 ...вектор-функцию Ляпунова $V = (V^1, V^2)^'
+l.111 ...вектор-функцию Ляпунова $V = (V^1, V^2)^'
                                                   $  с коэффициентами вида $...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -673,7 +545,7 @@ so that I will find a matching right brace soon.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.113 ...ектор-функцию Ляпунова $V = (V^1, V^2)^'$
+l.111 ...ектор-функцию Ляпунова $V = (V^1, V^2)^'$
                                                     с коэффициентами вида $V...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -684,7 +556,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing { inserted.
 <to be read again> 
                    ^
-l.113 ...= \|p(x)\|, V^2 = \sqrt{(\dot x + p(x))^'
+l.111 ...= \|p(x)\|, V^2 = \sqrt{(\dot x + p(x))^'
                                                    A^{(1)}(t, x)(\dot x + p(...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -694,7 +566,7 @@ so that I will find a matching right brace soon.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.113 ... + p(x))^' A^{(1)}(t, x)(\dot x + p(x))}$
+l.111 ... + p(x))^' A^{(1)}(t, x)(\dot x + p(x))}$
                                                   .
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -702,31 +574,11 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-
-Underfull \hbox (badness 1107) in paragraph at lines 112--114
-[]\T2A/cmr/m/n/14.4 где $\OML/cmm/m/it/14.4 B \OMS/cmsy/m/n/14.4 2 \OML/cmm/m/i
-t/14.4 R[]$ \T2A/cmr/m/n/14.4 есть мат-ри-ца ко-эф-фи-ци-ен-тов уси-ле-ния сиг-
-на-
- []
-
-
-Underfull \hbox (badness 1430) in paragraph at lines 112--114
-\T2A/cmr/m/n/14.4 лов, под-ле-жа-щая опре-де-ле-нию. Возь-мем для си-сте-мы II.
-1[] вектор-
- []
-
-
-Underfull \hbox (badness 5388) in paragraph at lines 112--114
-\T2A/cmr/m/n/14.4 функцию Ля-пу-но-ва $\OML/cmm/m/it/14.4 V \OT1/cmr/m/n/14.4 =
- (\OML/cmm/m/it/14.4 V[]; V[]\OT1/cmr/m/n/14.4 )[]$ \T2A/cmr/m/n/14.4 с ко-эф-ф
-и-ци-ен-та-ми ви-да
- []
-
-[13]
+[12]
 ! Missing { inserted.
 <to be read again> 
                    ^
-l.124 ...mbda_{max} [(D-F)^' (D-F)]}}{2 \lambda_1}
+l.122 ...mbda_{max} [(D-F)^' (D-F)]}}{2 \lambda_1}
                                                   , m_3 = \frac{m_2 l_1 l_{g...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -736,7 +588,7 @@ so that I will find a matching right brace soon.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.124 ...mbda_{max} [(D-F)^' (D-F)]}}{2 \lambda_1}
+l.122 ...mbda_{max} [(D-F)^' (D-F)]}}{2 \lambda_1}
                                                   , m_3 = \frac{m_2 l_1 l_{g...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -747,7 +599,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing { inserted.
 <to be read again> 
                    ^
-l.124 ...} - \lambda_{max} (B + B^')}{2 \lambda_2}
+l.122 ...} - \lambda_{max} (B + B^')}{2 \lambda_2}
                                                   $
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -757,7 +609,7 @@ so that I will find a matching right brace soon.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.124 ...} - \lambda_{max} (B + B^')}{2 \lambda_2}
+l.122 ...} - \lambda_{max} (B + B^')}{2 \lambda_2}
                                                   $
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -766,249 +618,212 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (358.61229pt too wide) in paragraph at lines 124--125
-[]$\OML/cmm/m/it/14.4 [] \OT1/cmr/m/n/14.4 = [] [](\OML/cmm/m/it/14.4 frac\OT
-1/cmr/m/n/14.4 2)\OML/cmm/m/it/14.4 ; m[] \OT1/cmr/m/n/14.4 = []\OML/cmm/m/it/1
-4.4 ; m[] \OT1/cmr/m/n/14.4 = [] []\OML/cmm/m/it/14.4 ; m[] \OT1/cmr/m/n/14.4 =
- []\OML/cmm/m/it/14.4 ; m[] \OT1/cmr/m/n/14.4 = []\OML/cmm/m/it/14.4 ; m[] \OT1
-/cmr/m/n/14.4 = []\OML/cmm/m/it/14.4 ; [] \OT1/cmr/m/n/14.4 = []$ 
+Overfull \hbox (247.69458pt too wide) in paragraph at lines 122--123
+[]$\OML/cmm/m/it/12 [] \OT1/cmr/m/n/12 = [] [](\OML/cmm/m/it/12 frac\OT1/cmr/
+m/n/12 2)\OML/cmm/m/it/12 ; m[] \OT1/cmr/m/n/12 = []\OML/cmm/m/it/12 ; m[] \OT1
+/cmr/m/n/12 = [] []\OML/cmm/m/it/12 ; m[] \OT1/cmr/m/n/12 = []\OML/cmm/m/it/12 
+; m[] \OT1/cmr/m/n/12 = []\OML/cmm/m/it/12 ; m[] \OT1/cmr/m/n/12 = []\OML/cmm/m
+/it/12 ; [] \OT1/cmr/m/n/12 = []$ 
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 146--147
-[]\T2A/cmr/m/n/14.4 Численное мо-де-ли-ро-ва-ние дви-же-ния ма-ни-пу-ля-то-ра п
-ри дей-ствии
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+[]\T2A/cmr/m/n/12 Согласно тео-ре-ме срав-не-ния об асимп-то-ти-че-ской устой-ч
+и-во-сти [5] из
  []
 
 
-LaTeX Warning: Command \cyrk invalid in math mode on input line 148.
-
-
-LaTeX Warning: Command \cyrg invalid in math mode on input line 148.
-
-
-LaTeX Warning: Command \cyrk invalid in math mode on input line 148.
-
-
-LaTeX Warning: Command \cyrg invalid in math mode on input line 148.
-
-
-LaTeX Warning: Command \cyrm invalid in math mode on input line 148.
-
-
-LaTeX Warning: Command \cyrm invalid in math mode on input line 148.
-
-
-LaTeX Warning: Command \cyrm invalid in math mode on input line 148.
-
-
-LaTeX Warning: Command \cyrm invalid in math mode on input line 148.
-
-
-LaTeX Warning: Command \cyrk invalid in math mode on input line 148.
-
-
-LaTeX Warning: Command \cyrg invalid in math mode on input line 148.
-
-
-LaTeX Warning: Command \cyrm invalid in math mode on input line 148.
-
-
-LaTeX Warning: Command \cyrk invalid in math mode on input line 148.
-
-
-LaTeX Warning: Command \cyrg invalid in math mode on input line 148.
-
-
-LaTeX Warning: Command \cyrm invalid in math mode on input line 148.
-
-Missing character: There is no к in font cmr12!
-Missing character: There is no г in font cmr12!
-Missing character: There is no к in font cmr12!
-Missing character: There is no г in font cmr12!
-Missing character: There is no м in font cmr12!
-Missing character: There is no м in font cmr12!
-Missing character: There is no м in font cmr12!
-Missing character: There is no м in font cmr12!
-Missing character: There is no к in font cmr12!
-Missing character: There is no г in font cmr12!
-Missing character: There is no м in font cmr12!
-Missing character: There is no к in font cmr12!
-Missing character: There is no г in font cmr12!
-Missing character: There is no м in font cmr12!
-
-Overfull \hbox (313.9881pt too wide) detected at line 148
-\OML/cmm/m/it/14.4 m[] \OT1/cmr/m/n/14.4 = 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/1
-4.4 5\OML/cmm/m/it/14.4 ; m[] \OT1/cmr/m/n/14.4 = 0\OML/cmm/m/it/14.4 ; \OT1/cm
-r/m/n/14.4 3\OML/cmm/m/it/14.4 ; l[] \OT1/cmr/m/n/14.4 = 0\OML/cmm/m/it/14.4 ; 
-\OT1/cmr/m/n/14.4 5\OML/cmm/m/it/14.4 ; l[] \OT1/cmr/m/n/14.4 = 0\OML/cmm/m/it/
-14.4 ; \OT1/cmr/m/n/14.4 5\OML/cmm/m/it/14.4 ; l[] \OT1/cmr/m/n/14.4 = 0\OML/cm
-m/m/it/14.4 ; \OT1/cmr/m/n/14.4 25\OML/cmm/m/it/14.4 ; l[] \OT1/cmr/m/n/14.4 = 
-0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 3\OML/cmm/m/it/14.4 ; I[] \OT1/cmr/m/n/
-14.4 = 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 01 \OMS/cmsy/m/n/14.4  []\OML/c
-mm/m/it/14.4 ; I[] \OT1/cmr/m/n/14.4 = 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 
-006 \OMS/cmsy/m/n/14.4  []\OML/cmm/m/it/14.4 ; q[]\OT1/cmr/m/n/14.4 (\OML/cmm/
-m/it/14.4 t\OT1/cmr/m/n/14.4 ) = [](0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 5\O
-ML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ; q[]\OT1/cmr/m/n/14.4 
-(\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) = [](0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/
-n/14.4 5\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) + \OML/cmm/m/it/14.4 =\OT1/cmr
-/m/n/14.4 2
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+\T2A/cmr/m/n/12 свой-ства асимп-то-ти-че-ской устой-чи-во-сти ну-ле-во-го ре-ше
+-ния си-сте-мы срав-
  []
 
-) [14] (chapter3.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+\T2A/cmr/m/n/12 не-ния II.1[] сле-ду-ет свой-ство рав-но-мер-ной асимп-то-ти-че
+-ской устой-чи-во-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+\T2A/cmr/m/n/12 сти ну-ле-во-го ре-ше-ния си-сте-мы II.1[]. По-лу-чим усло-вие 
+асимп-то-ти-че-ской
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+\T2A/cmr/m/n/12 устой-чи-во-сти ну-ле-во-го ре-ше-ния си-сте-мы II.1[] с об-ла-
+стью при-тя-же-ния
+ []
+
+
+Underfull \hbox (badness 7963) in paragraph at lines 131--132
+$[]$ \T2A/cmr/m/n/12 . Пусть най-дет-ся
+ []
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 146.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 146.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 146.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 146.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 146.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 146.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 146.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 146.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 146.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 146.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 146.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 146.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 146.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 146.
+
+Missing character: There is no к in font cmr12!
+Missing character: There is no г in font cmr12!
+Missing character: There is no к in font cmr12!
+Missing character: There is no г in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no к in font cmr12!
+Missing character: There is no г in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no к in font cmr12!
+Missing character: There is no г in font cmr12!
+Missing character: There is no м in font cmr12!
+
+Overfull \hbox (188.61436pt too wide) detected at line 146
+\OML/cmm/m/it/12 m[] \OT1/cmr/m/n/12 = 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5\OM
+L/cmm/m/it/12 ; m[] \OT1/cmr/m/n/12 = 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 3\OML
+/cmm/m/it/12 ; l[] \OT1/cmr/m/n/12 = 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5\OML/
+cmm/m/it/12 ; l[] \OT1/cmr/m/n/12 = 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5\OML/c
+mm/m/it/12 ; l[] \OT1/cmr/m/n/12 = 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 25\OML/c
+mm/m/it/12 ; l[] \OT1/cmr/m/n/12 = 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 3\OML/cm
+m/m/it/12 ; I[] \OT1/cmr/m/n/12 = 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 01 \OMS/c
+msy/m/n/12  []\OML/cmm/m/it/12 ; I[] \OT1/cmr/m/n/12 = 0\OML/cmm/m/it/12 ; \OT
+1/cmr/m/n/12 006 \OMS/cmsy/m/n/12  []\OML/cmm/m/it/12 ; q[]\OT1/cmr/m/n/12 (\O
+ML/cmm/m/it/12 t\OT1/cmr/m/n/12 ) = [](0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5\OM
+L/cmm/m/it/12 t\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; q[]\OT1/cmr/m/n/12 (\OML/cmm
+/m/it/12 t\OT1/cmr/m/n/12 ) = [](0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5\OML/cmm/
+m/it/12 t\OT1/cmr/m/n/12 ) + \OML/cmm/m/it/12 =\OT1/cmr/m/n/12 2
+ []
+
+) [13] (chapter3.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } III.
-
-Overfull \hbox (62.38344pt too wide) detected at line 20
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15
-
-]
-<images/3chain.png, id=63, 245.41687pt x 236.38312pt>
+<images/3chain.png, id=58, 245.41687pt x 236.38312pt>
 File: images/3chain.png Graphic file (type png)
  <use images/3chain.png>
 Package pdftex.def Info: images/3chain.png used on input line 24.
 (pdftex.def)             Requested size: 245.41626pt x 236.38254pt.
 
-[16 <./images/3chain.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 72--81
-[]\T2A/cmr/m/n/14.4 Пусть $\OML/cmm/m/it/14.4 q \OT1/cmr/m/n/14.4 = (\OML/cmm/m
-/it/14.4 q[]; q[]; q[]\OT1/cmr/m/n/14.4 )[]$ \T2A/cmr/m/n/14.4 --- век-тор обоб
--щен-ных ко-
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14
+
+]
+Overfull \hbox (35.7452pt too wide) in paragraph at lines 72--81
+\T2A/cmr/m/n/12 ни-че-ской си-сте-мы и $\OML/cmm/m/it/12 X \OT1/cmr/m/n/12 = []
+$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--81
-\T2A/cmr/m/n/14.4 ор-ди-нат рас-смат-ри-ва-е-мой ме-ха-ни-че-ской си-сте-мы и
+Underfull \hbox (badness 4531) in paragraph at lines 72--81
+\T2A/cmr/m/n/12 где $\OML/cmm/m/it/12 A[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t; x
+\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 A\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x \OT1/
+cmr/m/n/12 + \OML/cmm/m/it/12 q[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/
+n/12 ))$\T2A/cmr/m/n/12 , $\OML/cmm/m/it/12 C[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/1
+2 t; x; []\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 C\OT1/cmr/m/n/12 (\OML/cmm/m/it/
+12 x \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 q[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\
+OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; [] \OT1/cmr/m/n/12 + [](\OML/cmm/m/it/12 t\O
+T1/cmr/m/n/12 ))$\T2A/cmr/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 72--81
-\T2A/cmr/m/n/14.4 есть за-дан-ное мно-жест-во про-грамм-ных дви-же-ний ма-ни-пу
--ля-то-ра в
+Overfull \hbox (60.16405pt too wide) in paragraph at lines 72--81
+$\OML/cmm/m/it/12 Q[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t; x; []\OT1/cmr/m/n/12 
+) = \OML/cmm/m/it/12 Q \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 Q[]\OT1/cmr/m/n/12 (
+\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 )$\T2A/cmr/m/n/12 , $\OML/cmm/m/it/12 Q[]\OT1
+/cmr/m/n/12 (\OML/cmm/m/it/12 t; x; []\OT1/cmr/m/n/12 ) = (\OML/cmm/m/it/12 A[]
+\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t; \OT1/cmr/m/n/12 0) \OMS/cmsy/m/n/12   \OML
+/cmm/m/it/12 A[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t; x\OT1/cmr/m/n/12 ))[](\OML
+/cmm/m/it/12 t\OT1/cmr/m/n/12 ) + (\OML/cmm/m/it/12 C[]\OT1/cmr/m/n/12 (\OML/cm
+m/m/it/12 t; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0) \OMS/cmsy/m
+/n/12   \OML/cmm/m/it/12 C[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t; x; []\OT1/cmr/
+m/n/12 ))[](\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 )$
+ []
+
+[15 <./images/3chain.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 82--87
+[]\T2A/cmr/m/n/12 2 Син-тез управ-ле-ния в за-да-че ста-би-ли-за-ции про-грамм-
+но-го дви-же-
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 72--81
-\T2A/cmr/m/n/14.4 ви-де огра-ни-чен-ных два-жды непре-рыв-но диф-фе-рен-ци-ру-е
--мых функ-
+Underfull \hbox (badness 10000) in paragraph at lines 82--87
+\T2A/cmr/m/n/12 ния ма-ни-пу-ля-то-ра Рас-смот-рим ре-ше-ние за-да-чи ста-би-ли
+-за-ции в об-ла-сти
  []
 
 
-Underfull \hbox (badness 3907) in paragraph at lines 72--81
-\T2A/cmr/m/n/14.4 Сим-во-лом $\OMS/cmsy/m/n/14.4 kk$ \T2A/cmr/m/n/14.4 обо-зна-
-че-на ев-кли-до-ва нор-ма век-то-ра. Урав-не-ния
- []
-
-
-Underfull \hbox (badness 1033) in paragraph at lines 72--81
-\T2A/cmr/m/n/14.4 опре-де-лен-ная мат-ри-ца инер-ции си-сте-мы, $\OML/cmm/m/it/
-14.4 C\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 q; []\OT1/cmr/m/n/14.4 ) = [][] []\
-OML/cmm/m/it/14.4 C[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 q\OT1/cmr/m/n/14.4 )
-\OML/cmm/m/it/14.4 ;$
- []
-
-
-Underfull \hbox (badness 1708) in paragraph at lines 72--81
-\T2A/cmr/m/n/14.4 тож-де-ство $\OML/cmm/m/it/14.4 A\OT1/cmr/m/n/14.4 (\OML/cmm/
-m/it/14.4 q[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ))[](\OML
-/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) + \OML/cmm/m/it/14.4 C\OT1/cmr/m/n/14.4 (\O
-ML/cmm/m/it/14.4 q[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )\
-OML/cmm/m/it/14.4 ; []\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 
-))[](\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) + \OML/cmm/m/it/14.4 K[]\OT1/cmr/m
-/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) \OMS/cmsy/m/n/14.4  \OML/cmm/
-m/it/14.4 Q[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )$\T2A/cm
-r/m/n/14.4 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--81
-\T2A/cmr/m/n/14.4 Вве-дем воз-му-ще-ния $\OML/cmm/m/it/14.4 x \OT1/cmr/m/n/14.4
- = \OML/cmm/m/it/14.4 q \OMS/cmsy/m/n/14.4   \OML/cmm/m/it/14.4 q[]\OT1/cmr/m/n
-/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/n/14.4 и со-ста-вим 
-урав-не-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--81
-\T2A/cmr/m/n/14.4 ния воз-му-щен-но-го дви-же-ния в векторно-матричном ви-де:
- []
-
-
-Overfull \hbox (157.87682pt too wide) in paragraph at lines 72--81
-$\OML/cmm/m/it/14.4 Q[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x; []\OT1/cmr/m
-/n/14.4 ) = \OML/cmm/m/it/14.4 Q \OMS/cmsy/m/n/14.4   \OML/cmm/m/it/14.4 Q[]\OT
-1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )$\T2A/cmr/m/n/14.4 , $\O
-ML/cmm/m/it/14.4 Q[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x; []\OT1/cmr/m/n/
-14.4 ) = (\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; \OT1/c
-mr/m/n/14.4 0) \OMS/cmsy/m/n/14.4   \OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 (\O
-ML/cmm/m/it/14.4 t; x\OT1/cmr/m/n/14.4 ))[](\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14
-.4 ) + (\OML/cmm/m/it/14.4 C[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; \OT1/cmr
-/m/n/14.4 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 0) \OMS/cmsy/m/n/14.4   \OML/
-cmm/m/it/14.4 C[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x; []\OT1/cmr/m/n/14.
-4 ))[](\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--81
-\T2A/cmr/m/n/14.4 . Рас-смот-рим за-да-чу по-стро-е-ния управ-ля-ю-ще-го воз-де
-й-ствия
- []
-
-[17]
 Underfull \hbox (badness 10000) in paragraph at lines 88--89
-[]\T2A/cmr/m/n/14.4 Вычисляя про-из-вод-ные по вре-ме-ни от квад-ра-тов ком-по-
-
+[]\T2A/cmr/m/n/12 Вычисляя про-из-вод-ные по вре-ме-ни от квад-ра-тов ком-по-
  []
 
 
-Underfull \hbox (badness 8113) in paragraph at lines 88--89
-\T2A/cmr/m/n/14.4 нент вектор-функции Ля-пу-но-ва в си-лу си-сте-мы (3), по-лу-
-чим
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+\T2A/cmr/m/n/12 нент вектор-функции Ля-пу-но-ва в си-лу си-сте-мы (3), по-лу-чи
+м
  []
 
 
-Overfull \hbox (479.09027pt too wide) detected at line 90
-[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 V[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.
-4 x\OT1/cmr/m/n/14.4 ))[] = 2\OML/cmm/m/it/14.4 V[][] \OT1/cmr/m/n/14.4 = 2([] 
-+ [])[]\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 ([] + \OML/cmm/m/it/14.4 p\OT1/c
-mr/m/n/14.4 ) + ([] + \OML/cmm/m/it/14.4 p\OT1/cmr/m/n/14.4 )[][]([] + \OML/cmm
-/m/it/14.4 p\OT1/cmr/m/n/14.4 ) = 2(\OMS/cmsy/m/n/14.4  \OML/cmm/m/it/14.4 C[]\
-OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x; []\OT1/cmr/m/n/14.4 )[] \OMS/cmsy/m/
-n/14.4   \OML/cmm/m/it/14.4 R[] \OT1/cmr/m/n/14.4 + \OML/cmm/m/it/14.4 Q[]\OT1/
-cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x; []\OT1/cmr/m/n/14.4 ) + \OML/cmm/m/it/14.4 
-Q[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x; []\OT1/cmr/m/n/14.4 ))[]([] + \O
-ML/cmm/m/it/14.4 p\OT1/cmr/m/n/14.4 ) + 2[]\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/1
-4.4 ([] + \OML/cmm/m/it/14.4 p\OT1/cmr/m/n/14.4 ) + ([] + \OML/cmm/m/it/14.4 p\
-OT1/cmr/m/n/14.4 )[][]([] + \OML/cmm/m/it/14.4 p\OT1/cmr/m/n/14.4 )
+Overfull \hbox (327.43762pt too wide) detected at line 90
+[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 V[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/
+cmr/m/n/12 ))[] = 2\OML/cmm/m/it/12 V[][] \OT1/cmr/m/n/12 = 2([] + [])[]\OML/cm
+m/m/it/12 A[]\OT1/cmr/m/n/12 ([] + \OML/cmm/m/it/12 p\OT1/cmr/m/n/12 ) + ([] + 
+\OML/cmm/m/it/12 p\OT1/cmr/m/n/12 )[][]([] + \OML/cmm/m/it/12 p\OT1/cmr/m/n/12 
+) = 2(\OMS/cmsy/m/n/12  \OML/cmm/m/it/12 C[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t
+; x; []\OT1/cmr/m/n/12 )[] \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 R[] \OT1/cmr/m/n
+/12 + \OML/cmm/m/it/12 Q[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; []\OT1/cmr/m/n/1
+2 ) + \OML/cmm/m/it/12 Q[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t; x; []\OT1/cmr/m/
+n/12 ))[]([] + \OML/cmm/m/it/12 p\OT1/cmr/m/n/12 ) + 2[]\OML/cmm/m/it/12 A[]\OT
+1/cmr/m/n/12 ([] + \OML/cmm/m/it/12 p\OT1/cmr/m/n/12 ) + ([] + \OML/cmm/m/it/12
+ p\OT1/cmr/m/n/12 )[][]([] + \OML/cmm/m/it/12 p\OT1/cmr/m/n/12 )
  []
 
 
-Overfull \hbox (73.47478pt too wide) in paragraph at lines 92--96
-[]\T2A/cmr/m/n/14.4 Отсюда по-лу-чим сле-ду-ю-щие оцен-ки: $[] \U/msa/m/n/14.4 
-6 \OMS/cmsy/m/n/14.4  \OML/cmm/m/it/14.4 []V[] \OT1/cmr/m/n/14.4 + []\OML/cmm/
-m/it/14.4 V[]; [] \U/msa/m/n/14.4 6 []\OML/cmm/m/it/14.4 V[] \OMS/cmsy/m/n/14.4
-   []$\T2A/cmr/m/n/14.4 ,
+Underfull \hbox (badness 1728) in paragraph at lines 100--106
+\T2A/cmr/m/n/12 чи-во-сти ну-ле-во-го ре-ше-ния си-сте-мы срав-не-ния (5) сле-д
+у-ет ана-ло-гич-ное свой-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--96
-\T2A/cmr/m/n/14.4 где по-ло-жи-тель-ные по-сто-ян-ные $\OML/cmm/m/it/14.4 []; 
-[]; m[]; m[]$ \T2A/cmr/m/n/14.4 и функ-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--96
-\T2A/cmr/m/n/14.4 ция $\OML/cmm/m/it/14.4 \OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.
-4 t; x\OT1/cmr/m/n/14.4 )$ \T2A/cmr/m/n/14.4 опре-де-ля-ют-ся из сле-ду-ю-щих у
-сло-вий:
- []
-
-[18]
+[16]
 
 LaTeX Warning: Command \cyrk invalid in math mode on input line 107.
 
@@ -1058,179 +873,146 @@ Missing character: There is no к in font cmr12!
 Missing character: There is no г in font cmr12!
 Missing character: There is no м in font cmr12!
 
-Overfull \hbox (315.96368pt too wide) in paragraph at lines 107--108
-[]$\OML/cmm/m/it/14.4 m[] \OT1/cmr/m/n/14.4 = 15\OML/cmm/m/it/14.4 ; m[] \OT1/c
-mr/m/n/14.4 = 2\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 5\OML/cmm/m/it/14.4 ; m[]
- \OT1/cmr/m/n/14.4 = 2\OML/cmm/m/it/14.4 ; l[] \OT1/cmr/m/n/14.4 = 1\OML/cmm/m/
-it/14.4 ; r[] \OT1/cmr/m/n/14.4 = 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 5\OML
-/cmm/m/it/14.4 ; r[] \OT1/cmr/m/n/14.4 = 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.
-4 5\OML/cmm/m/it/14.4 ; J[] \OT1/cmr/m/n/14.4 = 0\OML/cmm/m/it/14.4 ; \OT1/cmr/
-m/n/14.4 1 \OMS/cmsy/m/n/14.4  []\OML/cmm/m/it/14.4 ; q[]\OT1/cmr/m/n/14.4 (\O
-ML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) = 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4
- 2\OML/cmm/m/it/14.4 t; q[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/
-14.4 ) = 1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 5 + 0\OML/cmm/m/it/14.4 ; \OT1
-/cmr/m/n/14.4 5\OML/cmm/m/it/14.4 sint; q[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.
-4 t\OT1/cmr/m/n/14.4 ) = 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 5\OML/cmm/m/it
-/14.4 sin\OT1/cmr/m/n/14.4 (0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 5\OML/cmm/m
-/it/14.4 t\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 :$ 
+Overfull \hbox (191.55676pt too wide) in paragraph at lines 107--108
+[]$\OML/cmm/m/it/12 m[] \OT1/cmr/m/n/12 = 15\OML/cmm/m/it/12 ; m[] \OT1/cmr/m/n
+/12 = 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5\OML/cmm/m/it/12 ; m[] \OT1/cmr/m/n/
+12 = 2\OML/cmm/m/it/12 ; l[] \OT1/cmr/m/n/12 = 1\OML/cmm/m/it/12 ; r[] \OT1/cmr
+/m/n/12 = 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5\OML/cmm/m/it/12 ; r[] \OT1/cmr/
+m/n/12 = 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5\OML/cmm/m/it/12 ; J[] \OT1/cmr/m
+/n/12 = 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 1 \OMS/cmsy/m/n/12  []\OML/cmm/m/i
+t/12 ; q[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 ) = 0\OML/cmm/m/it
+/12 ; \OT1/cmr/m/n/12 2\OML/cmm/m/it/12 t; q[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12
+ t\OT1/cmr/m/n/12 ) = 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5 + 0\OML/cmm/m/it/12
+ ; \OT1/cmr/m/n/12 5\OML/cmm/m/it/12 sint; q[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12
+ t\OT1/cmr/m/n/12 ) = 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5\OML/cmm/m/it/12 sin
+\OT1/cmr/m/n/12 (0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5\OML/cmm/m/it/12 t\OT1/cm
+r/m/n/12 )\OML/cmm/m/it/12 :$ 
  []
 
-) [19] [20
+) [17] [18
 
-] [21]
-Underfull \hbox (badness 10000) in paragraph at lines 254--259
-[]\T2A/cmr/m/n/14.4 Андреев А.С., Пав-ли-ков С.В. Ис-сле-до-ва-ние устой-чи-во-
-сти
+]
+Underfull \hbox (badness 1281) in paragraph at lines 254--259
+[]\T2A/cmr/m/n/12 Андреев А.С., Пав-ли-ков С.В. Ис-сле-до-ва-ние устой-чи-во-ст
+и функционально-
  []
 
-
-Underfull \hbox (badness 6204) in paragraph at lines 254--259
-\T2A/cmr/m/n/14.4 функционально-дифференциальных урав-не-ний на ос-но-ве зна-
- []
-
-
-Underfull \hbox (badness 5133) in paragraph at lines 278--282
-[]\T2A/cmr/m/n/14.4 Андреев А.С., Пав-ли-ков С.В. Незна-ко-опре-де-лен-ные функ
--ци-
+[19] [20] [21] [22]
+Underfull \hbox (badness 10000) in paragraph at lines 498--502
+[]\T2A/cmr/m/n/12 Павликов С.В. Об устой-чи-во-сти ну-ле-во-го ре-ше-ния функци
+онально-
  []
 
 
-Underfull \hbox (badness 5578) in paragraph at lines 278--282
-\T2A/cmr/m/n/14.4 о-на-лы Ля-пу-но-ва в за-да-че об устой-чи-во-сти функциональ
-но-
+Underfull \hbox (badness 2229) in paragraph at lines 498--502
+\T2A/cmr/m/n/12 дифференциального урав-не-ния вто-ро-го по-ряд-ка// Уче-ные за-
+пис-ки Улья-
  []
 
 
-Underfull \hbox (badness 2027) in paragraph at lines 287--290
-[]\T2A/cmr/m/n/14.4 Андреев А.С., Ху-са-нов Д.Х. Пре-дель-ные урав-не-ния в за-
-да-че
+Underfull \hbox (badness 1365) in paragraph at lines 498--502
+\T2A/cmr/m/n/12 нов-ско-го го-су-дар-ствен-но-го уни-вер-си-те-та. Сер. Фун-да-
+мен-таль-ные про-бле-мы
  []
 
-[22] [23] [24] [25] [26]
-Underfull \hbox (badness 1019) in paragraph at lines 493--497
-[]\T2A/cmr/m/n/14.4 Павликов С.В. Ме-тод функ-ци-о-на-лов Ля-пу-но-ва в ис-сле-
-до-ва-нии
- []
-
-
-Underfull \hbox (badness 3907) in paragraph at lines 493--497
-\T2A/cmr/m/n/14.4 устой-чи-во-сти функционально-дифференциальных урав-не-ний //
-
- []
-
-[27] [28] [29] [30]
-Underfull \hbox (badness 10000) in paragraph at lines 636--638
-[]\T2A/cmr/m/n/14.4 Эльсгольц Л.Э. Устой-чи-вость ре-ше-ний дифференциально-
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 532--538
+[]\T2A/cmr/m/n/12 Перегудова О.А. К ме-то-ду срав-не-ния в ис-сле-до-ва-нии уст
+ой-чи-во-сти
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 659--662
-[]\T2A/cmr/m/n/14.4 Andreev A.S., Sedova N.O. On the stability of nonautonomous
-
+Underfull \hbox (badness 10000) in paragraph at lines 532--538
+\T2A/cmr/m/n/12 функционально-дифференциальных урав-не-ний за-паз-ды-ва-ю-ще-го
+ ти-па //
  []
 
 
-Underfull \hbox (badness 2680) in paragraph at lines 663--665
-[]\T2A/cmr/m/n/14.4 Andreev A., Zappala'G. On stability for perturbed different
-ial
+Underfull \hbox (badness 1577) in paragraph at lines 591--595
+[]\T2A/cmr/m/n/12 Тереки Й. Экс-по-нен-ци-аль-ная и сте-пен-ная асимп-то-ти-че-
+ская устой-чи-вость
  []
 
-[31]
-Underfull \hbox (badness 1509) in paragraph at lines 693--696
-[]\T2A/cmr/m/n/14.4 Burton T.A., Hatvani L. Stability theorems for nonautonomou
-s
+[24] [25]
+Underfull \hbox (badness 2189) in paragraph at lines 693--696
+[]\T2A/cmr/m/n/12 Burton T.A., Hatvani L. Stability theorems for nonautonomous 
+functional
  []
 
-[32]
-Underfull \hbox (badness 2384) in paragraph at lines 733--736
-[]\T2A/cmr/m/n/14.4 Haddock J., Terjeki J. Liapunov-Razumikhin functions and a
-n
- []
-
-[33]
-Underfull \hbox (badness 1478) in paragraph at lines 783--786
-[]\T2A/cmr/m/n/14.4 Hornor W.E. Invariance principles and asymptotic constancy 
-of
+[26] [27]
+Underfull \hbox (badness 1642) in paragraph at lines 802--804
+[]\T2A/cmr/m/n/12 Kato J. On Liapunov--Razumikhin type theorems for functional 
+differential
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 795--798
-[]\T2A/cmr/m/n/14.4 Jankovic M. Control Lyapunov-Razumikhin functions and robus
-t
+Underfull \hbox (badness 3815) in paragraph at lines 812--815
+[]\T2A/cmr/m/n/12 Mao X. Comments on "An improved Razumikhin-type theorem and i
+ts
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 802--804
-[]\T2A/cmr/m/n/14.4 Kato J. On Liapunov--Razumikhin type theorems for functiona
-l
- []
-
-[34]
-Underfull \hbox (badness 4981) in paragraph at lines 820--823
-[]\T2A/cmr/m/n/14.4 Murakami S. Perturbation theorems for functional differenti
-al
+Underfull \hbox (badness 5622) in paragraph at lines 831--834
+[]\T2A/cmr/m/n/12 Sedova N. Razumikhin-type theorems in the problem on instabil
+ity of
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 827--830
-[]\T2A/cmr/m/n/14.4 Sedova N. On employment of semi-definite function in stabil
-ity
+Underfull \hbox (badness 1902) in paragraph at lines 842--845
+[]\T2A/cmr/m/n/12 Taniguchi T. Asymptotic behavior theorems for non-autonomous 
+functional
  []
 
+[28] [29]
+! Misplaced alignment tab character &.
+l.896 ...uated Euler–Lagrange systems // Systems &
+                                                   Control Letters. 1998. 33...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-Underfull \hbox (badness 2591) in paragraph at lines 827--830
-\T2A/cmr/m/n/14.4 of delayed equations // Journal of Mathematical Analysis and
- []
-
-
-Underfull \hbox (badness 2277) in paragraph at lines 839--841
-[]\T2A/cmr/m/n/14.4 Sell G.R. Nonautonomous differential equations and topologi
-cal
- []
-
-
-Underfull \hbox (badness 1163) in paragraph at lines 842--845
-[]\T2A/cmr/m/n/14.4 Taniguchi T. Asymptotic behavior theorems for non-autonomou
-s
- []
-
-[35] [36] [37] (main.aux)
+[30] [31] (main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3792 strings out of 493634
- 46581 string characters out of 3135239
- 114837 words of memory out of 3000000
- 7052 multiletter control sequences out of 15000+200000
- 17176 words of font info for 44 fonts, out of 3000000 for 9000
+ 3828 strings out of 493634
+ 46868 string characters out of 3135239
+ 122919 words of memory out of 3000000
+ 7078 multiletter control sequences out of 15000+200000
+ 20523 words of font info for 52 fonts, out of 3000000 for 9000
  1073 hyphenation exceptions out of 8191
- 34i,9n,27p,757b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,9n,27p,5308b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\la
-bx1728.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\d
-pi600\lati1440.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\
-lh-t2a\dpi600\labx1095.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\lj
-four\lh\lh-t2a\dpi600\larm1440.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fon
-ts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk> <C:\Users\Admin\AppData\Local\MiKTeX
-\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk> <C:\Users\Admin\AppData\Loca
-l\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx2074.pk> <C:\Users\Admin\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx2488.pk><C:/Users/Adm
-in/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-<C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmmi10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmmi12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Admin/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Admin/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Admin/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Us
-ers/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmsy7.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (36 pages, 350797 bytes).
+bx1440.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\d
+pi600\lati1200.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\
+lh-t2a\dpi600\labx0900.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\lj
+four\lh\lh-t2a\dpi600\labx2074.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fon
+ts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk> <C:\Users\Admin\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1200.pk> <C:\Users\Admin\AppData\Loca
+l\MiKTeX\2.9\fonts\pk\ljfour\unknown\unknown\dpi600\larm1000.pk> <C:\Users\Admi
+n\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1728.pk> <C:\Us
+ers\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx2488.pk
+><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmex10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmmi12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Admin/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Admin/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Admin/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/U
+sers/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Admin/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on main.pdf (30 pages, 356288 bytes).
 PDF statistics:
- 549 PDF objects out of 1000 (max. 8388607)
+ 544 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
